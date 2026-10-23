@@ -1,0 +1,12 @@
+[submodule "upstream/componentize-js"]
+	path = upstream/componentize-js
+	url = https://github.com/dicej/componentize-js.git
+[submodule "upstream/js-guest-bindgen"]
+	path = upstream/js-guest-bindgen
+	url = https://github.com/MendyBerger/js-guest-bindgen.git
+[submodule "upstream/wasm-tools"]
+	path = upstream/wasm-tools
+	url = https://github.com/bytecodealliance/wasm-tools.git
+[submodule "upstream/porffor"]
+	path = upstream/porffor
+	url = https://github.com/CanadaHonk/porffor.git

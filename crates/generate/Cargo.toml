@@ -1,0 +1,16 @@
+[package]
+name = "generate"
+version = "0.1.0"
+edition = "2024"
+[dependencies]
+anyhow = "1"
+js-guest-bindgen = { path = "../../upstream/js-guest-bindgen" }
+wit-parser = "=0.259.0"
+wit-bindgen-core = "=0.62.0"
+wit-bindgen-c = "=0.62.0"
+wit-dylib = "=0.254.0"
+wit-parser-old = { package = "wit-parser", version = "=0.254.0" }
+wit-component-old = { package = "wit-component", version = "=0.254.0" }
+wasm-encoder-old = { package = "wasm-encoder", version = "=0.254.0" }
+heck = "0.5"
+serde_json = "1"

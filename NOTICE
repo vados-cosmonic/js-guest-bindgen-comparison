@@ -1,0 +1,12 @@
+This comparison incorporates code under Apache-2.0 WITH LLVM-exception:
+
+- vendor/componentize-codegen/{codegen.rs,globals.js}: dicej/componentize-js,
+  exact revision in upstream.lock.json; unmodified source, license alongside it.
+- crates/generate/src/{boa_a.rs,porffor_a.rs,prelude.c,prelude.js} and
+  crates/boa-a/src/: adapted from MendyBerger/js-guest-bindgen's example
+  embeddings; changes are documented in docs/PORTING.md.
+- native/common/wit_dylib.h: bytecodealliance/wasm-tools v1.254.0,
+  licensed Apache-2.0 WITH LLVM-exception / Apache-2.0 / MIT, per upstream.
+
+Git submodules retain their own licenses. New comparison code uses
+Apache-2.0 WITH LLVM-exception, as included in LICENSE.

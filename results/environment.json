@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-23T05:15:11Z",
+  "platform": "Linux-6.12.111-x86_64-with-glibc2.44",
+  "cpu_model": "Intel(R) Xeon(R) Processor @ 2.60GHz",
+  "allowed_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "pinned_cpu": 0,
+  "rust": "rustc 1.99.0 (b940084d7 2026-09-28)",
+  "node": "v24.21.0",
+  "wasm_tools": "wasm-tools 1.261.0 (5793351e3 2026-10-02)",
+  "rounds": 3,
+  "runner_sha256": "407202d55b305e6344dc380e341ef8d5ea936aaf095d35437f24938c28f460f9",
+  "method": "15 adaptive warm batches per process, 9 fresh instances for cold calls, automatic post-return included, serial process runs, rotated order"
+}

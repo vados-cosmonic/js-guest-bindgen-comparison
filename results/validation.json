@@ -1,0 +1,32 @@
+{
+  "boa-a": {
+    "valid": true,
+    "p2_sync_world": true,
+    "exports": 7
+  },
+  "boa-b": {
+    "valid": true,
+    "p2_sync_world": true,
+    "exports": 7
+  },
+  "boa-c": {
+    "valid": true,
+    "p2_sync_world": true,
+    "exports": 7
+  },
+  "porffor-a": {
+    "valid": true,
+    "p2_sync_world": true,
+    "exports": 7
+  },
+  "porffor-b": {
+    "valid": true,
+    "p2_sync_world": true,
+    "exports": 7
+  },
+  "porffor-c": {
+    "valid": true,
+    "p2_sync_world": true,
+    "exports": 7
+  }
+}

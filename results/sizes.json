@@ -1,0 +1,126 @@
+{
+  "components": {
+    "boa-a": {
+      "raw_bytes": 8345928,
+      "stripped_bytes": 7238779,
+      "gzip9_bytes": 1787681,
+      "sha256": "3c1fe3067b7296e7df85f939d6c9fb7fe8a020d87715824b4e7f95b567a774cb",
+      "stripped_sha256": "a9a043d09480f2dfe299693364fe2d86cbe43cd8da83714451e957f81ad07a70",
+      "code_section_bytes": 5902658,
+      "data_section_bytes": 1314337,
+      "core_module_count": 4
+    },
+    "boa-b": {
+      "raw_bytes": 8494061,
+      "stripped_bytes": 7344501,
+      "gzip9_bytes": 1815709,
+      "sha256": "763693389de61d84bb8aa1e091a21980f13d95b284b56f26d17d460c8502a4e5",
+      "stripped_sha256": "697489fe00f904f4565e9be71533cfab937bd9df46e02a7d79d053986c267613",
+      "code_section_bytes": 6014188,
+      "data_section_bytes": 1307985,
+      "core_module_count": 4
+    },
+    "boa-c": {
+      "raw_bytes": 12173211,
+      "stripped_bytes": 9461450,
+      "gzip9_bytes": 2375676,
+      "sha256": "5fd8e8fabd9d26aeee6ce82563999a8cf8174c142b3f3eef8ec7210b719d2b2e",
+      "stripped_sha256": "93792e1721d6d8bdee44a828a6132bc2069cf84469c736bd7264d30c5f4a8878",
+      "code_section_bytes": 7576362,
+      "data_section_bytes": 1498194,
+      "core_module_count": 7
+    },
+    "porffor-a": {
+      "raw_bytes": 880715,
+      "stripped_bytes": 859053,
+      "gzip9_bytes": 243203,
+      "sha256": "eb936097ed1b5e821c75fa3b8abda435b554e1e8b72fb2cb48e956aad68d45ef",
+      "stripped_sha256": "53743022387a12871494465bc6cd29e6d0cd345e9c1af0b1e8a99166e9f41fb7",
+      "code_section_bytes": 803705,
+      "data_section_bytes": 47705,
+      "core_module_count": 4
+    },
+    "porffor-b": {
+      "raw_bytes": 414028,
+      "stripped_bytes": 398448,
+      "gzip9_bytes": 124417,
+      "sha256": "3dce2dac9d4a1635f84a18ddc4c13f5385100b746848e050d06f3b38f9423a33",
+      "stripped_sha256": "f56b0921e0db9b0d71b5ff5ee3c2c2f99735e179b31dc3cb8d6044403af7a410",
+      "code_section_bytes": 360356,
+      "data_section_bytes": 31249,
+      "core_module_count": 4
+    },
+    "porffor-c": {
+      "raw_bytes": 2831159,
+      "stripped_bytes": 1050847,
+      "gzip9_bytes": 439302,
+      "sha256": "86c4c4c08d599cd8f79e30428be138659db0a77748c5d23a47447c196562c70a",
+      "stripped_sha256": "5b7b6db51a7f9795bfd444879ec7ee5a9ac75171f6215672c040da8424833cac",
+      "code_section_bytes": 720950,
+      "data_section_bytes": 231900,
+      "core_module_count": 10
+    },
+    "boa-a-nolog": {
+      "raw_bytes": 8344136,
+      "stripped_bytes": 7236987,
+      "gzip9_bytes": 1787406,
+      "sha256": "fef3a7828c568366308a87c19fd2f8ec1e9fbc0ec0aa5ed9a64b66aece57ab75",
+      "stripped_sha256": "19acbf85da8a9a7d22421064e4e0e9be68bbbe6206a70ebe838ea33e5c5bb65d",
+      "code_section_bytes": 5902658,
+      "data_section_bytes": 1312545,
+      "core_module_count": 4
+    },
+    "porffor-a-nolog": {
+      "raw_bytes": 774456,
+      "stripped_bytes": 754944,
+      "gzip9_bytes": 216058,
+      "sha256": "a00e3683448aa393261502f6566c5f6f9a65a7b77040d98d6d4b15f413834b84",
+      "stripped_sha256": "8e0af7524d7cc22d2b3a307864639cf8a6f2b25fe1275c9820ceb85ac7729153",
+      "code_section_bytes": 704261,
+      "data_section_bytes": 43553,
+      "core_module_count": 4
+    },
+    "porffor-a-native-utf8": {
+      "raw_bytes": 724888,
+      "stripped_bytes": 705438,
+      "gzip9_bytes": 204991,
+      "sha256": "47e7936f6ce97ac87e6903628b645a06eb6a8dc03edb07348cfb0bf899b7f7ca",
+      "stripped_sha256": "c950bacf65c444d171ad1f990bb669235ce271f3830984aaf98c32d197d7c9a4",
+      "code_section_bytes": 654869,
+      "data_section_bytes": 43441,
+      "core_module_count": 4
+    }
+  },
+  "artifacts": {
+    "build/generated/wit.js": {
+      "bytes": 11812
+    },
+    "build/generated/bench.c": {
+      "bytes": 6365
+    },
+    "build/generated/world.so": {
+      "bytes": 6611,
+      "stripped_bytes": 4420
+    },
+    "build/boa-c/libengine.so": {
+      "bytes": 9470046,
+      "stripped_bytes": 8567722
+    },
+    "build/porffor-c/libengine.so": {
+      "bytes": 370336,
+      "stripped_bytes": 360958
+    },
+    "build/porffor-a/bundle.js": {
+      "bytes": 21182
+    },
+    "build/porffor-b/bundle.js": {
+      "bytes": 2250
+    },
+    "build/porffor-a/app.c": {
+      "bytes": 1018995
+    },
+    "build/porffor-b/app.c": {
+      "bytes": 491482
+    }
+  }
+}

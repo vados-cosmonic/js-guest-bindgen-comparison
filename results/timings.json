@@ -1,0 +1,1514 @@
+{
+  "boa-a": {
+    "processes": 3,
+    "measurements": {
+      "scalar": {
+        "median_ns": 8358.755980861244,
+        "process_medians_ns": [
+          8349.915642915643,
+          10406.390867579908,
+          8358.755980861244
+        ],
+        "min_process_median_ns": 8349.915642915643,
+        "max_process_median_ns": 10406.390867579908
+      },
+      "floating": {
+        "median_ns": 7551.365558912386,
+        "process_medians_ns": [
+          7546.320923306032,
+          8598.971883786317,
+          7551.365558912386
+        ],
+        "min_process_median_ns": 7546.320923306032,
+        "max_process_median_ns": 8598.971883786317
+      },
+      "text-0": {
+        "median_ns": 29182.28482972136,
+        "process_medians_ns": [
+          28797.138643067847,
+          33430.60130718954,
+          29182.28482972136
+        ],
+        "min_process_median_ns": 28797.138643067847,
+        "max_process_median_ns": 33430.60130718954
+      },
+      "bytes-0": {
+        "median_ns": 36596.311643835616,
+        "process_medians_ns": [
+          35572.83571428571,
+          41132.669421487604,
+          36596.311643835616
+        ],
+        "min_process_median_ns": 35572.83571428571,
+        "max_process_median_ns": 41132.669421487604
+      },
+      "text-32": {
+        "median_ns": 32686.133561643837,
+        "process_medians_ns": [
+          31580.564516129034,
+          36784.49815498155,
+          32686.133561643837
+        ],
+        "min_process_median_ns": 31580.564516129034,
+        "max_process_median_ns": 36784.49815498155
+      },
+      "bytes-32": {
+        "median_ns": 39282.4030418251,
+        "process_medians_ns": [
+          38443.03345724907,
+          46254.742358078605,
+          39282.4030418251
+        ],
+        "min_process_median_ns": 38443.03345724907,
+        "max_process_median_ns": 46254.742358078605
+      },
+      "text-1024": {
+        "median_ns": 45995.607476635516,
+        "process_medians_ns": [
+          45108.58149779736,
+          57543.72352941176,
+          45995.607476635516
+        ],
+        "min_process_median_ns": 45108.58149779736,
+        "max_process_median_ns": 57543.72352941176
+      },
+      "bytes-1024": {
+        "median_ns": 39435.24,
+        "process_medians_ns": [
+          39121.211764705884,
+          45727.90740740741,
+          39435.24
+        ],
+        "min_process_median_ns": 39121.211764705884,
+        "max_process_median_ns": 45727.90740740741
+      },
+      "text-16384": {
+        "median_ns": 246681.54761904763,
+        "process_medians_ns": [
+          236843.63414634147,
+          280750.0833333333,
+          246681.54761904763
+        ],
+        "min_process_median_ns": 236843.63414634147,
+        "max_process_median_ns": 280750.0833333333
+      },
+      "bytes-16384": {
+        "median_ns": 47234.569444444445,
+        "process_medians_ns": [
+          46845.206896551725,
+          66992.24,
+          47234.569444444445
+        ],
+        "min_process_median_ns": 46845.206896551725,
+        "max_process_median_ns": 66992.24
+      },
+      "text-unicode": {
+        "median_ns": 47514.80542986425,
+        "process_medians_ns": [
+          46479.57603686636,
+          56183.854838709674,
+          47514.80542986425
+        ],
+        "min_process_median_ns": 46479.57603686636,
+        "max_process_median_ns": 56183.854838709674
+      },
+      "record": {
+        "median_ns": 44606.95652173913,
+        "process_medians_ns": [
+          42984.95,
+          51888.16580310881,
+          44606.95652173913
+        ],
+        "min_process_median_ns": 42984.95,
+        "max_process_median_ns": 51888.16580310881
+      },
+      "imports-1": {
+        "median_ns": 25561.24494949495,
+        "process_medians_ns": [
+          25561.24494949495,
+          29662.115384615383,
+          25252.182519280206
+        ],
+        "min_process_median_ns": 25252.182519280206,
+        "max_process_median_ns": 29662.115384615383
+      },
+      "imports-10": {
+        "median_ns": 202039.89655172414,
+        "process_medians_ns": [
+          202039.89655172414,
+          230815.03636363638,
+          166687.33333333334
+        ],
+        "min_process_median_ns": 166687.33333333334,
+        "max_process_median_ns": 230815.03636363638
+      },
+      "imports-100": {
+        "median_ns": 1811318.7,
+        "process_medians_ns": [
+          1811318.7,
+          2362792.0,
+          1790165.1
+        ],
+        "min_process_median_ns": 1790165.1,
+        "max_process_median_ns": 2362792.0
+      },
+      "import-text-1024": {
+        "median_ns": 102984.1875,
+        "process_medians_ns": [
+          102984.1875,
+          134325.45454545456,
+          102689.28421052631
+        ],
+        "min_process_median_ns": 102689.28421052631,
+        "max_process_median_ns": 134325.45454545456
+      }
+    },
+    "instantiate_median_ns": 250227.0,
+    "first_scalar_median_ns": 6238953.0,
+    "compile_median_ms": 8212.391259
+  },
+  "boa-a-nolog": {
+    "processes": 3,
+    "measurements": {
+      "scalar": {
+        "median_ns": 2106.8482640377197,
+        "process_medians_ns": [
+          2197.092108308262,
+          2106.8482640377197,
+          2019.3997983870968
+        ],
+        "min_process_median_ns": 2019.3997983870968,
+        "max_process_median_ns": 2197.092108308262
+      },
+      "floating": {
+        "median_ns": 1492.1349072512648,
+        "process_medians_ns": [
+          1499.011205673759,
+          1492.1349072512648,
+          1395.5684988839287
+        ],
+        "min_process_median_ns": 1395.5684988839287,
+        "max_process_median_ns": 1499.011205673759
+      },
+      "text-0": {
+        "median_ns": 22426.5206185567,
+        "process_medians_ns": [
+          22893.68717948718,
+          22426.5206185567,
+          21751.806526806526
+        ],
+        "min_process_median_ns": 21751.806526806526,
+        "max_process_median_ns": 22893.68717948718
+      },
+      "bytes-0": {
+        "median_ns": 29001.724043715847,
+        "process_medians_ns": [
+          30453.950867052023,
+          29001.724043715847,
+          27473.160104986877
+        ],
+        "min_process_median_ns": 27473.160104986877,
+        "max_process_median_ns": 30453.950867052023
+      },
+      "text-32": {
+        "median_ns": 26805.469656992085,
+        "process_medians_ns": [
+          26805.469656992085,
+          28137.798816568047,
+          24743.7922705314
+        ],
+        "min_process_median_ns": 24743.7922705314,
+        "max_process_median_ns": 28137.798816568047
+      },
+      "bytes-32": {
+        "median_ns": 32195.011904761905,
+        "process_medians_ns": [
+          33181.6204620462,
+          32195.011904761905,
+          30598.303030303032
+        ],
+        "min_process_median_ns": 30598.303030303032,
+        "max_process_median_ns": 33181.6204620462
+      },
+      "text-1024": {
+        "median_ns": 41521.54824561404,
+        "process_medians_ns": [
+          41521.54824561404,
+          42858.20955882353,
+          38204.21708185053
+        ],
+        "min_process_median_ns": 38204.21708185053,
+        "max_process_median_ns": 42858.20955882353
+      },
+      "bytes-1024": {
+        "median_ns": 33314.82950819672,
+        "process_medians_ns": [
+          33314.82950819672,
+          34446.56956521739,
+          31259.814935064936
+        ],
+        "min_process_median_ns": 31259.814935064936,
+        "max_process_median_ns": 34446.56956521739
+      },
+      "text-16384": {
+        "median_ns": 254445.29268292684,
+        "process_medians_ns": [
+          254445.29268292684,
+          264927.3333333333,
+          235989.9090909091
+        ],
+        "min_process_median_ns": 235989.9090909091,
+        "max_process_median_ns": 264927.3333333333
+      },
+      "bytes-16384": {
+        "median_ns": 56853.506493506495,
+        "process_medians_ns": [
+          57611.196202531646,
+          56853.506493506495,
+          56040.5628742515
+        ],
+        "min_process_median_ns": 56040.5628742515,
+        "max_process_median_ns": 57611.196202531646
+      },
+      "text-unicode": {
+        "median_ns": 44781.074803149604,
+        "process_medians_ns": [
+          44781.074803149604,
+          42741.5807860262,
+          44870.43540669856
+        ],
+        "min_process_median_ns": 42741.5807860262,
+        "max_process_median_ns": 44870.43540669856
+      },
+      "record": {
+        "median_ns": 38324.080152671755,
+        "process_medians_ns": [
+          38359.345132743365,
+          38324.080152671755,
+          37278.96498054475
+        ],
+        "min_process_median_ns": 37278.96498054475,
+        "max_process_median_ns": 38359.345132743365
+      },
+      "imports-1": {
+        "median_ns": 11619.406130268198,
+        "process_medians_ns": [
+          11619.406130268198,
+          11687.813930348259,
+          10771.741154562384
+        ],
+        "min_process_median_ns": 10771.741154562384,
+        "max_process_median_ns": 11687.813930348259
+      },
+      "imports-10": {
+        "median_ns": 87047.87313432836,
+        "process_medians_ns": [
+          87047.87313432836,
+          89692.6046511628,
+          82786.41549295775
+        ],
+        "min_process_median_ns": 82786.41549295775,
+        "max_process_median_ns": 89692.6046511628
+      },
+      "imports-100": {
+        "median_ns": 838531.6923076923,
+        "process_medians_ns": [
+          838531.6923076923,
+          868933.9090909091,
+          801067.5384615385
+        ],
+        "min_process_median_ns": 801067.5384615385,
+        "max_process_median_ns": 868933.9090909091
+      },
+      "import-text-1024": {
+        "median_ns": 90209.52427184465,
+        "process_medians_ns": [
+          90209.52427184465,
+          91407.99019607843,
+          88026.36134453781
+        ],
+        "min_process_median_ns": 88026.36134453781,
+        "max_process_median_ns": 91407.99019607843
+      }
+    },
+    "instantiate_median_ns": 253331.0,
+    "first_scalar_median_ns": 5960122.0,
+    "compile_median_ms": 8725.234748
+  },
+  "boa-b": {
+    "processes": 3,
+    "measurements": {
+      "scalar": {
+        "median_ns": 902.3605954316024,
+        "process_medians_ns": [
+          853.2420289855072,
+          902.3605954316024,
+          1054.911600527758
+        ],
+        "min_process_median_ns": 853.2420289855072,
+        "max_process_median_ns": 1054.911600527758
+      },
+      "floating": {
+        "median_ns": 845.0846648141716,
+        "process_medians_ns": [
+          793.85759086523,
+          845.0846648141716,
+          983.047242477149
+        ],
+        "min_process_median_ns": 793.85759086523,
+        "max_process_median_ns": 983.047242477149
+      },
+      "text-0": {
+        "median_ns": 1107.434509099079,
+        "process_medians_ns": [
+          1033.163984012099,
+          1107.434509099079,
+          1338.2737774355026
+        ],
+        "min_process_median_ns": 1033.163984012099,
+        "max_process_median_ns": 1338.2737774355026
+      },
+      "bytes-0": {
+        "median_ns": 2363.8799119773657,
+        "process_medians_ns": [
+          2064.686285097192,
+          2363.8799119773657,
+          2842.3700495049507
+        ],
+        "min_process_median_ns": 2064.686285097192,
+        "max_process_median_ns": 2842.3700495049507
+      },
+      "text-32": {
+        "median_ns": 2136.0286400961345,
+        "process_medians_ns": [
+          1883.0903800691035,
+          2136.0286400961345,
+          2585.830945558739
+        ],
+        "min_process_median_ns": 1883.0903800691035,
+        "max_process_median_ns": 2585.830945558739
+      },
+      "bytes-32": {
+        "median_ns": 2828.470818070818,
+        "process_medians_ns": [
+          2412.368336397059,
+          2828.470818070818,
+          3423.4439421338157
+        ],
+        "min_process_median_ns": 2412.368336397059,
+        "max_process_median_ns": 3423.4439421338157
+      },
+      "text-1024": {
+        "median_ns": 14295.758344459278,
+        "process_medians_ns": [
+          13446.307792207792,
+          14295.758344459278,
+          18523.037735849055
+        ],
+        "min_process_median_ns": 13446.307792207792,
+        "max_process_median_ns": 18523.037735849055
+      },
+      "bytes-1024": {
+        "median_ns": 5823.878036175711,
+        "process_medians_ns": [
+          5063.680549199084,
+          5823.878036175711,
+          7106.057291666667
+        ],
+        "min_process_median_ns": 5063.680549199084,
+        "max_process_median_ns": 7106.057291666667
+      },
+      "text-16384": {
+        "median_ns": 203033.03846153847,
+        "process_medians_ns": [
+          182165.87037037036,
+          203033.03846153847,
+          261019.61111111112
+        ],
+        "min_process_median_ns": 182165.87037037036,
+        "max_process_median_ns": 261019.61111111112
+      },
+      "bytes-16384": {
+        "median_ns": 51731.82773109244,
+        "process_medians_ns": [
+          47445.038647343,
+          51731.82773109244,
+          59513.09574468085
+        ],
+        "min_process_median_ns": 47445.038647343,
+        "max_process_median_ns": 59513.09574468085
+      },
+      "text-unicode": {
+        "median_ns": 17081.738993710693,
+        "process_medians_ns": [
+          16193.21505376344,
+          17081.738993710693,
+          19498.187175043327
+        ],
+        "min_process_median_ns": 16193.21505376344,
+        "max_process_median_ns": 19498.187175043327
+      },
+      "record": {
+        "median_ns": 10459.025896414343,
+        "process_medians_ns": [
+          9004.493788819876,
+          10459.025896414343,
+          10973.06124852768
+        ],
+        "min_process_median_ns": 9004.493788819876,
+        "max_process_median_ns": 10973.06124852768
+      },
+      "imports-1": {
+        "median_ns": 2878.925915800984,
+        "process_medians_ns": [
+          2577.1173361522197,
+          2878.925915800984,
+          3519.4929253043765
+        ],
+        "min_process_median_ns": 2577.1173361522197,
+        "max_process_median_ns": 3519.4929253043765
+      },
+      "imports-10": {
+        "median_ns": 21232.429702970298,
+        "process_medians_ns": [
+          18501.07072691552,
+          21232.429702970298,
+          28246.42199488491
+        ],
+        "min_process_median_ns": 18501.07072691552,
+        "max_process_median_ns": 28246.42199488491
+      },
+      "imports-100": {
+        "median_ns": 207204.4423076923,
+        "process_medians_ns": [
+          175694.50877192983,
+          207204.4423076923,
+          246024.375
+        ],
+        "min_process_median_ns": 175694.50877192983,
+        "max_process_median_ns": 246024.375
+      },
+      "import-text-1024": {
+        "median_ns": 30407.768072289156,
+        "process_medians_ns": [
+          30407.768072289156,
+          29242.512328767123,
+          36297.840579710144
+        ],
+        "min_process_median_ns": 29242.512328767123,
+        "max_process_median_ns": 36297.840579710144
+      }
+    },
+    "instantiate_median_ns": 232744.0,
+    "first_scalar_median_ns": 2333686.0,
+    "compile_median_ms": 9159.979557999999
+  },
+  "boa-c": {
+    "processes": 3,
+    "measurements": {
+      "scalar": {
+        "median_ns": 1431.6250340878103,
+        "process_medians_ns": [
+          1497.7218487394957,
+          1431.6250340878103,
+          1250.0884248210025
+        ],
+        "min_process_median_ns": 1250.0884248210025,
+        "max_process_median_ns": 1497.7218487394957
+      },
+      "floating": {
+        "median_ns": 1315.3815094339623,
+        "process_medians_ns": [
+          1319.055466821548,
+          1315.3815094339623,
+          1216.5549547431526
+        ],
+        "min_process_median_ns": 1216.5549547431526,
+        "max_process_median_ns": 1319.055466821548
+      },
+      "text-0": {
+        "median_ns": 1516.9597372324645,
+        "process_medians_ns": [
+          1516.9597372324645,
+          1628.2031000319591,
+          1431.2413339183852
+        ],
+        "min_process_median_ns": 1431.2413339183852,
+        "max_process_median_ns": 1628.2031000319591
+      },
+      "bytes-0": {
+        "median_ns": 3106.4387926215763,
+        "process_medians_ns": [
+          3149.765175164759,
+          3106.4387926215763,
+          2942.932892998679
+        ],
+        "min_process_median_ns": 2942.932892998679,
+        "max_process_median_ns": 3149.765175164759
+      },
+      "text-32": {
+        "median_ns": 2824.538731365098,
+        "process_medians_ns": [
+          2824.538731365098,
+          2950.8423757852656,
+          2671.1943699731905
+        ],
+        "min_process_median_ns": 2671.1943699731905,
+        "max_process_median_ns": 2950.8423757852656
+      },
+      "bytes-32": {
+        "median_ns": 3535.124534161491,
+        "process_medians_ns": [
+          3535.124534161491,
+          3639.783097686375,
+          3479.2867783985103
+        ],
+        "min_process_median_ns": 3479.2867783985103,
+        "max_process_median_ns": 3639.783097686375
+      },
+      "text-1024": {
+        "median_ns": 17613.03092783505,
+        "process_medians_ns": [
+          19641.73469387755,
+          17613.03092783505,
+          16967.62646566164
+        ],
+        "min_process_median_ns": 16967.62646566164,
+        "max_process_median_ns": 19641.73469387755
+      },
+      "bytes-1024": {
+        "median_ns": 6198.534896705751,
+        "process_medians_ns": [
+          6807.058146964856,
+          5943.437462597247,
+          6198.534896705751
+        ],
+        "min_process_median_ns": 5943.437462597247,
+        "max_process_median_ns": 6807.058146964856
+      },
+      "text-16384": {
+        "median_ns": 250755.38095238095,
+        "process_medians_ns": [
+          288982.55263157893,
+          250755.38095238095,
+          224554.2093023256
+        ],
+        "min_process_median_ns": 224554.2093023256,
+        "max_process_median_ns": 288982.55263157893
+      },
+      "bytes-16384": {
+        "median_ns": 52183.854545454546,
+        "process_medians_ns": [
+          52183.854545454546,
+          52704.663865546216,
+          45830.8031496063
+        ],
+        "min_process_median_ns": 45830.8031496063,
+        "max_process_median_ns": 52704.663865546216
+      },
+      "text-unicode": {
+        "median_ns": 19764.27489177489,
+        "process_medians_ns": [
+          19764.27489177489,
+          20524.824561403508,
+          18904.068833652007
+        ],
+        "min_process_median_ns": 18904.068833652007,
+        "max_process_median_ns": 20524.824561403508
+      },
+      "record": {
+        "median_ns": 12265.968709256846,
+        "process_medians_ns": [
+          12971.347747747748,
+          12015.840677966102,
+          12265.968709256846
+        ],
+        "min_process_median_ns": 12015.840677966102,
+        "max_process_median_ns": 12971.347747747748
+      },
+      "imports-1": {
+        "median_ns": 3691.8606409794743,
+        "process_medians_ns": [
+          3731.37764118325,
+          3691.8606409794743,
+          3505.0242901128977
+        ],
+        "min_process_median_ns": 3505.0242901128977,
+        "max_process_median_ns": 3731.37764118325
+      },
+      "imports-10": {
+        "median_ns": 25574.25,
+        "process_medians_ns": [
+          25574.25,
+          26673.9648241206,
+          24262.1
+        ],
+        "min_process_median_ns": 24262.1,
+        "max_process_median_ns": 26673.9648241206
+      },
+      "imports-100": {
+        "median_ns": 248686.71794871794,
+        "process_medians_ns": [
+          248686.71794871794,
+          253501.1935483871,
+          232870.11627906977
+        ],
+        "min_process_median_ns": 232870.11627906977,
+        "max_process_median_ns": 253501.1935483871
+      },
+      "import-text-1024": {
+        "median_ns": 36250.19587628866,
+        "process_medians_ns": [
+          36250.19587628866,
+          36983.69822485207,
+          35432.7
+        ],
+        "min_process_median_ns": 35432.7,
+        "max_process_median_ns": 36983.69822485207
+      }
+    },
+    "instantiate_median_ns": 2028179.0,
+    "first_scalar_median_ns": 2960274.0,
+    "compile_median_ms": 24936.73314
+  },
+  "porffor-a": {
+    "processes": 3,
+    "measurements": {
+      "scalar": {
+        "median_ns": 3217.662626832018,
+        "process_medians_ns": [
+          3043.162687395891,
+          3217.662626832018,
+          3574.3982521847693
+        ],
+        "min_process_median_ns": 3043.162687395891,
+        "max_process_median_ns": 3574.3982521847693
+      },
+      "floating": {
+        "median_ns": 3054.6405446293493,
+        "process_medians_ns": [
+          2933.188178528347,
+          3054.6405446293493,
+          3503.2448336252187
+        ],
+        "min_process_median_ns": 2933.188178528347,
+        "max_process_median_ns": 3503.2448336252187
+      },
+      "text-0": {
+        "median_ns": 4472.970083589969,
+        "process_medians_ns": [
+          4388.713738834538,
+          4472.970083589969,
+          5081.069001568218
+        ],
+        "min_process_median_ns": 4388.713738834538,
+        "max_process_median_ns": 5081.069001568218
+      },
+      "bytes-0": {
+        "median_ns": 5298.160474716202,
+        "process_medians_ns": [
+          4798.34504391468,
+          5298.160474716202,
+          5707.847031963471
+        ],
+        "min_process_median_ns": 4798.34504391468,
+        "max_process_median_ns": 5707.847031963471
+      },
+      "text-32": {
+        "median_ns": 19410.881700554528,
+        "process_medians_ns": [
+          18124.403010033446,
+          19410.881700554528,
+          21144.77822580645
+        ],
+        "min_process_median_ns": 18124.403010033446,
+        "max_process_median_ns": 21144.77822580645
+      },
+      "bytes-32": {
+        "median_ns": 5573.199886104783,
+        "process_medians_ns": [
+          5153.214247740563,
+          5573.199886104783,
+          5935.931141439206
+        ],
+        "min_process_median_ns": 5153.214247740563,
+        "max_process_median_ns": 5935.931141439206
+      },
+      "text-1024": {
+        "median_ns": 473445.71428571426,
+        "process_medians_ns": [
+          423580.2173913043,
+          473445.71428571426,
+          519756.55
+        ],
+        "min_process_median_ns": 423580.2173913043,
+        "max_process_median_ns": 519756.55
+      },
+      "bytes-1024": {
+        "median_ns": 5976.6741016109045,
+        "process_medians_ns": [
+          5623.28605061801,
+          5976.6741016109045,
+          6415.04591492235
+        ],
+        "min_process_median_ns": 5623.28605061801,
+        "max_process_median_ns": 6415.04591492235
+      },
+      "text-16384": {
+        "median_ns": 18357491.0,
+        "process_medians_ns": [
+          17827493.2,
+          18357491.0,
+          23750153.3
+        ],
+        "min_process_median_ns": 17827493.2,
+        "max_process_median_ns": 23750153.3
+      },
+      "bytes-16384": {
+        "median_ns": 14063.83608815427,
+        "process_medians_ns": [
+          13643.779310344828,
+          14063.83608815427,
+          19339.976331360947
+        ],
+        "min_process_median_ns": 13643.779310344828,
+        "max_process_median_ns": 19339.976331360947
+      },
+      "text-unicode": {
+        "median_ns": 405529.6923076923,
+        "process_medians_ns": [
+          395424.2,
+          405529.6923076923,
+          528052.7222222222
+        ],
+        "min_process_median_ns": 395424.2,
+        "max_process_median_ns": 528052.7222222222
+      },
+      "record": {
+        "median_ns": 11239.186017478152,
+        "process_medians_ns": [
+          10796.91154261057,
+          11239.186017478152,
+          14178.366758241758
+        ],
+        "min_process_median_ns": 10796.91154261057,
+        "max_process_median_ns": 14178.366758241758
+      },
+      "imports-1": {
+        "median_ns": 6111.847457627118,
+        "process_medians_ns": [
+          6111.847457627118,
+          6020.93991416309,
+          7297.600732600733
+        ],
+        "min_process_median_ns": 6020.93991416309,
+        "max_process_median_ns": 7297.600732600733
+      },
+      "imports-10": {
+        "median_ns": 33765.20578778135,
+        "process_medians_ns": [
+          32906.16225165563,
+          33765.20578778135,
+          38935.464419475655
+        ],
+        "min_process_median_ns": 32906.16225165563,
+        "max_process_median_ns": 38935.464419475655
+      },
+      "imports-100": {
+        "median_ns": 306806.30303030304,
+        "process_medians_ns": [
+          295740.0,
+          306806.30303030304,
+          389477.3793103448
+        ],
+        "min_process_median_ns": 295740.0,
+        "max_process_median_ns": 389477.3793103448
+      },
+      "import-text-1024": {
+        "median_ns": 1025667.4,
+        "process_medians_ns": [
+          903074.2,
+          1025667.4,
+          1147246.5
+        ],
+        "min_process_median_ns": 903074.2,
+        "max_process_median_ns": 1147246.5
+      }
+    },
+    "instantiate_median_ns": 287470.0,
+    "first_scalar_median_ns": 44642708.0,
+    "compile_median_ms": 1102.4772409999998
+  },
+  "porffor-a-native-utf8": {
+    "processes": 3,
+    "measurements": {
+      "scalar": {
+        "median_ns": 241.5303,
+        "process_medians_ns": [
+          241.5303,
+          283.81725,
+          228.3205
+        ],
+        "min_process_median_ns": 228.3205,
+        "max_process_median_ns": 283.81725
+      },
+      "floating": {
+        "median_ns": 199.18375,
+        "process_medians_ns": [
+          197.97025,
+          209.1022,
+          199.18375
+        ],
+        "min_process_median_ns": 197.97025,
+        "max_process_median_ns": 209.1022
+      },
+      "text-0": {
+        "median_ns": 1117.589853438557,
+        "process_medians_ns": [
+          1117.589853438557,
+          1448.4293792917733,
+          1065.3500216731686
+        ],
+        "min_process_median_ns": 1065.3500216731686,
+        "max_process_median_ns": 1448.4293792917733
+      },
+      "bytes-0": {
+        "median_ns": 2052.183660130719,
+        "process_medians_ns": [
+          2052.183660130719,
+          2788.929347826087,
+          1851.7733208955224
+        ],
+        "min_process_median_ns": 1851.7733208955224,
+        "max_process_median_ns": 2788.929347826087
+      },
+      "text-32": {
+        "median_ns": 1457.675646839157,
+        "process_medians_ns": [
+          1457.675646839157,
+          1926.2003600360035,
+          1317.8913717385688
+        ],
+        "min_process_median_ns": 1317.8913717385688,
+        "max_process_median_ns": 1926.2003600360035
+      },
+      "bytes-32": {
+        "median_ns": 2260.1330357142856,
+        "process_medians_ns": [
+          2260.1330357142856,
+          2772.076283618582,
+          2008.3733984136668
+        ],
+        "min_process_median_ns": 2008.3733984136668,
+        "max_process_median_ns": 2772.076283618582
+      },
+      "text-1024": {
+        "median_ns": 5372.30373095113,
+        "process_medians_ns": [
+          5372.30373095113,
+          6213.083497698883,
+          5026.624368048534
+        ],
+        "min_process_median_ns": 5026.624368048534,
+        "max_process_median_ns": 6213.083497698883
+      },
+      "bytes-1024": {
+        "median_ns": 2632.5528151469857,
+        "process_medians_ns": [
+          2632.5528151469857,
+          3414.1860691670727,
+          2328.629208040688
+        ],
+        "min_process_median_ns": 2328.629208040688,
+        "max_process_median_ns": 3414.1860691670727
+      },
+      "text-16384": {
+        "median_ns": 67450.68707482993,
+        "process_medians_ns": [
+          67450.68707482993,
+          87352.92660550459,
+          62460.25657894737
+        ],
+        "min_process_median_ns": 62460.25657894737,
+        "max_process_median_ns": 87352.92660550459
+      },
+      "bytes-16384": {
+        "median_ns": 10312.320212765957,
+        "process_medians_ns": [
+          10312.320212765957,
+          15750.943467336683,
+          9817.839009287925
+        ],
+        "min_process_median_ns": 9817.839009287925,
+        "max_process_median_ns": 15750.943467336683
+      },
+      "text-unicode": {
+        "median_ns": 6585.88731596829,
+        "process_medians_ns": [
+          6585.88731596829,
+          7069.499045194144,
+          6214.958888245513
+        ],
+        "min_process_median_ns": 6214.958888245513,
+        "max_process_median_ns": 7069.499045194144
+      },
+      "record": {
+        "median_ns": 1730.8091791703441,
+        "process_medians_ns": [
+          1730.8091791703441,
+          1927.7841909275558,
+          1559.4250859669232
+        ],
+        "min_process_median_ns": 1559.4250859669232,
+        "max_process_median_ns": 1927.7841909275558
+      },
+      "imports-1": {
+        "median_ns": 338.52875,
+        "process_medians_ns": [
+          338.52875,
+          355.0022,
+          317.8277
+        ],
+        "min_process_median_ns": 317.8277,
+        "max_process_median_ns": 355.0022
+      },
+      "imports-10": {
+        "median_ns": 1345.2711789751872,
+        "process_medians_ns": [
+          1345.2711789751872,
+          1402.6376226197347,
+          1282.1389197874182
+        ],
+        "min_process_median_ns": 1282.1389197874182,
+        "max_process_median_ns": 1402.6376226197347
+      },
+      "imports-100": {
+        "median_ns": 11429.604494382022,
+        "process_medians_ns": [
+          11429.604494382022,
+          12000.607466063348,
+          10440.642934196332
+        ],
+        "min_process_median_ns": 10440.642934196332,
+        "max_process_median_ns": 12000.607466063348
+      },
+      "import-text-1024": {
+        "median_ns": 10596.969450101833,
+        "process_medians_ns": [
+          10596.969450101833,
+          11185.922822491731,
+          9784.5625
+        ],
+        "min_process_median_ns": 9784.5625,
+        "max_process_median_ns": 11185.922822491731
+      }
+    },
+    "instantiate_median_ns": 284133.0,
+    "first_scalar_median_ns": 43762911.0,
+    "compile_median_ms": 911.4251909999999
+  },
+  "porffor-a-nolog": {
+    "processes": 3,
+    "measurements": {
+      "scalar": {
+        "median_ns": 240.12865,
+        "process_medians_ns": [
+          240.12865,
+          260.492,
+          224.9874
+        ],
+        "min_process_median_ns": 224.9874,
+        "max_process_median_ns": 260.492
+      },
+      "floating": {
+        "median_ns": 203.0155,
+        "process_medians_ns": [
+          203.0155,
+          205.2506,
+          180.6671
+        ],
+        "min_process_median_ns": 180.6671,
+        "max_process_median_ns": 205.2506
+      },
+      "text-0": {
+        "median_ns": 1445.4227793252862,
+        "process_medians_ns": [
+          1445.4227793252862,
+          1530.7420346110302,
+          1339.3519633132703
+        ],
+        "min_process_median_ns": 1339.3519633132703,
+        "max_process_median_ns": 1530.7420346110302
+      },
+      "bytes-0": {
+        "median_ns": 1937.6149989973933,
+        "process_medians_ns": [
+          2063.7116430903156,
+          1937.6149989973933,
+          1894.1962470680219
+        ],
+        "min_process_median_ns": 1894.1962470680219,
+        "max_process_median_ns": 2063.7116430903156
+      },
+      "text-32": {
+        "median_ns": 16526.62883435583,
+        "process_medians_ns": [
+          18765.864,
+          16526.62883435583,
+          15269.723529411765
+        ],
+        "min_process_median_ns": 15269.723529411765,
+        "max_process_median_ns": 18765.864
+      },
+      "bytes-32": {
+        "median_ns": 2146.7880618656354,
+        "process_medians_ns": [
+          2309.5208565692615,
+          2146.7880618656354,
+          2077.1279095544223
+        ],
+        "min_process_median_ns": 2077.1279095544223,
+        "max_process_median_ns": 2309.5208565692615
+      },
+      "text-1024": {
+        "median_ns": 469746.04347826086,
+        "process_medians_ns": [
+          487375.09523809527,
+          463429.95238095237,
+          469746.04347826086
+        ],
+        "min_process_median_ns": 463429.95238095237,
+        "max_process_median_ns": 487375.09523809527
+      },
+      "bytes-1024": {
+        "median_ns": 2605.763340448239,
+        "process_medians_ns": [
+          2663.7372947615327,
+          2605.763340448239,
+          2487.937386334113
+        ],
+        "min_process_median_ns": 2487.937386334113,
+        "max_process_median_ns": 2663.7372947615327
+      },
+      "text-16384": {
+        "median_ns": 19342362.1,
+        "process_medians_ns": [
+          19790272.9,
+          19342362.1,
+          18280437.2
+        ],
+        "min_process_median_ns": 18280437.2,
+        "max_process_median_ns": 19790272.9
+      },
+      "bytes-16384": {
+        "median_ns": 9958.152671755724,
+        "process_medians_ns": [
+          10455.27701993704,
+          9958.152671755724,
+          9927.27060020346
+        ],
+        "min_process_median_ns": 9927.27060020346,
+        "max_process_median_ns": 10455.27701993704
+      },
+      "text-unicode": {
+        "median_ns": 410169.5,
+        "process_medians_ns": [
+          410169.5,
+          428865.962962963,
+          393105.8214285714
+        ],
+        "min_process_median_ns": 393105.8214285714,
+        "max_process_median_ns": 428865.962962963
+      },
+      "record": {
+        "median_ns": 7776.977219167321,
+        "process_medians_ns": [
+          7776.977219167321,
+          7827.555555555556,
+          7233.281454545455
+        ],
+        "min_process_median_ns": 7233.281454545455,
+        "max_process_median_ns": 7827.555555555556
+      },
+      "imports-1": {
+        "median_ns": 345.9468,
+        "process_medians_ns": [
+          345.9468,
+          363.405,
+          319.99985
+        ],
+        "min_process_median_ns": 319.99985,
+        "max_process_median_ns": 363.405
+      },
+      "imports-10": {
+        "median_ns": 1347.8112633181127,
+        "process_medians_ns": [
+          1369.8290974034894,
+          1347.8112633181127,
+          1277.0318866253322
+        ],
+        "min_process_median_ns": 1277.0318866253322,
+        "max_process_median_ns": 1369.8290974034894
+      },
+      "imports-100": {
+        "median_ns": 10853.768318965518,
+        "process_medians_ns": [
+          11410.29203539823,
+          10853.768318965518,
+          10530.495535714286
+        ],
+        "min_process_median_ns": 10530.495535714286,
+        "max_process_median_ns": 11410.29203539823
+      },
+      "import-text-1024": {
+        "median_ns": 902317.1818181818,
+        "process_medians_ns": [
+          939630.0909090909,
+          902317.1818181818,
+          867186.6
+        ],
+        "min_process_median_ns": 867186.6,
+        "max_process_median_ns": 939630.0909090909
+      }
+    },
+    "instantiate_median_ns": 311388.0,
+    "first_scalar_median_ns": 43517814.0,
+    "compile_median_ms": 978.5656190000001
+  },
+  "porffor-b": {
+    "processes": 3,
+    "measurements": {
+      "scalar": {
+        "median_ns": 229.9024,
+        "process_medians_ns": [
+          226.1994,
+          284.3381,
+          229.9024
+        ],
+        "min_process_median_ns": 226.1994,
+        "max_process_median_ns": 284.3381
+      },
+      "floating": {
+        "median_ns": 205.94875,
+        "process_medians_ns": [
+          205.94875,
+          234.29615,
+          204.071
+        ],
+        "min_process_median_ns": 204.071,
+        "max_process_median_ns": 234.29615
+      },
+      "text-0": {
+        "median_ns": 477.7825992623129,
+        "process_medians_ns": [
+          477.7825992623129,
+          499.9435863367104,
+          470.14905
+        ],
+        "min_process_median_ns": 470.14905,
+        "max_process_median_ns": 499.9435863367104
+      },
+      "bytes-0": {
+        "median_ns": 628.3143371711584,
+        "process_medians_ns": [
+          628.3143371711584,
+          649.4436115843271,
+          586.8261083138892
+        ],
+        "min_process_median_ns": 586.8261083138892,
+        "max_process_median_ns": 649.4436115843271
+      },
+      "text-32": {
+        "median_ns": 706.0965825755353,
+        "process_medians_ns": [
+          706.0965825755353,
+          800.7470009100687,
+          650.3000302297461
+        ],
+        "min_process_median_ns": 650.3000302297461,
+        "max_process_median_ns": 800.7470009100687
+      },
+      "bytes-32": {
+        "median_ns": 733.3205317577548,
+        "process_medians_ns": [
+          733.3205317577548,
+          860.3462411347517,
+          661.8153997332772
+        ],
+        "min_process_median_ns": 661.8153997332772,
+        "max_process_median_ns": 860.3462411347517
+      },
+      "text-1024": {
+        "median_ns": 4553.482062780269,
+        "process_medians_ns": [
+          4553.482062780269,
+          4913.863350125945,
+          4040.3320817688777
+        ],
+        "min_process_median_ns": 4040.3320817688777,
+        "max_process_median_ns": 4913.863350125945
+      },
+      "bytes-1024": {
+        "median_ns": 945.0513196480938,
+        "process_medians_ns": [
+          945.0513196480938,
+          1050.891308731599,
+          849.1738137082601
+        ],
+        "min_process_median_ns": 849.1738137082601,
+        "max_process_median_ns": 1050.891308731599
+      },
+      "text-16384": {
+        "median_ns": 60877.49411764706,
+        "process_medians_ns": [
+          61991.67320261438,
+          60877.49411764706,
+          55592.97005988024
+        ],
+        "min_process_median_ns": 55592.97005988024,
+        "max_process_median_ns": 61991.67320261438
+      },
+      "bytes-16384": {
+        "median_ns": 5786.236666666667,
+        "process_medians_ns": [
+          5786.236666666667,
+          5809.294915254237,
+          4773.3500506585615
+        ],
+        "min_process_median_ns": 4773.3500506585615,
+        "max_process_median_ns": 5809.294915254237
+      },
+      "text-unicode": {
+        "median_ns": 6387.069213732005,
+        "process_medians_ns": [
+          6387.069213732005,
+          7437.1469534050175,
+          5550.624174707974
+        ],
+        "min_process_median_ns": 5550.624174707974,
+        "max_process_median_ns": 7437.1469534050175
+      },
+      "record": {
+        "median_ns": 1606.3570557756782,
+        "process_medians_ns": [
+          1606.3570557756782,
+          2606.652192242833,
+          1482.672611280267
+        ],
+        "min_process_median_ns": 1482.672611280267,
+        "max_process_median_ns": 2606.652192242833
+      },
+      "imports-1": {
+        "median_ns": 459.99185,
+        "process_medians_ns": [
+          459.99185,
+          674.1311821153644,
+          434.0387
+        ],
+        "min_process_median_ns": 434.0387,
+        "max_process_median_ns": 674.1311821153644
+      },
+      "imports-10": {
+        "median_ns": 2318.4645526613817,
+        "process_medians_ns": [
+          2318.4645526613817,
+          4493.044514106583,
+          2194.3587196467993
+        ],
+        "min_process_median_ns": 2194.3587196467993,
+        "max_process_median_ns": 4493.044514106583
+      },
+      "imports-100": {
+        "median_ns": 20132.942115768463,
+        "process_medians_ns": [
+          20132.942115768463,
+          45980.08152173913,
+          19759.147239263802
+        ],
+        "min_process_median_ns": 19759.147239263802,
+        "max_process_median_ns": 45980.08152173913
+      },
+      "import-text-1024": {
+        "median_ns": 8291.246945898778,
+        "process_medians_ns": [
+          8291.246945898778,
+          16553.133431085043,
+          8032.385993485342
+        ],
+        "min_process_median_ns": 8032.385993485342,
+        "max_process_median_ns": 16553.133431085043
+      }
+    },
+    "instantiate_median_ns": 296916.0,
+    "first_scalar_median_ns": 43362778.0,
+    "compile_median_ms": 552.759064
+  },
+  "porffor-c": {
+    "processes": 3,
+    "measurements": {
+      "scalar": {
+        "median_ns": 406.3218,
+        "process_medians_ns": [
+          385.5734,
+          446.36815,
+          406.3218
+        ],
+        "min_process_median_ns": 385.5734,
+        "max_process_median_ns": 446.36815
+      },
+      "floating": {
+        "median_ns": 380.86575,
+        "process_medians_ns": [
+          360.17045,
+          406.10675,
+          380.86575
+        ],
+        "min_process_median_ns": 360.17045,
+        "max_process_median_ns": 406.10675
+      },
+      "text-0": {
+        "median_ns": 618.5676839543157,
+        "process_medians_ns": [
+          579.8384741367545,
+          638.8874162946429,
+          618.5676839543157
+        ],
+        "min_process_median_ns": 579.8384741367545,
+        "max_process_median_ns": 638.8874162946429
+      },
+      "bytes-0": {
+        "median_ns": 750.2152728976341,
+        "process_medians_ns": [
+          743.1638782974088,
+          795.3726369471556,
+          750.2152728976341
+        ],
+        "min_process_median_ns": 743.1638782974088,
+        "max_process_median_ns": 795.3726369471556
+      },
+      "text-32": {
+        "median_ns": 832.676724137931,
+        "process_medians_ns": [
+          781.4773665698119,
+          851.119293078056,
+          832.676724137931
+        ],
+        "min_process_median_ns": 781.4773665698119,
+        "max_process_median_ns": 851.119293078056
+      },
+      "bytes-32": {
+        "median_ns": 890.794982284784,
+        "process_medians_ns": [
+          857.3396208257145,
+          964.9564527328638,
+          890.794982284784
+        ],
+        "min_process_median_ns": 857.3396208257145,
+        "max_process_median_ns": 964.9564527328638
+      },
+      "text-1024": {
+        "median_ns": 3729.799923780488,
+        "process_medians_ns": [
+          3620.219288595526,
+          3935.005347593583,
+          3729.799923780488
+        ],
+        "min_process_median_ns": 3620.219288595526,
+        "max_process_median_ns": 3935.005347593583
+      },
+      "bytes-1024": {
+        "median_ns": 1074.5398721196766,
+        "process_medians_ns": [
+          1034.6244204018546,
+          1157.1174568965516,
+          1074.5398721196766
+        ],
+        "min_process_median_ns": 1034.6244204018546,
+        "max_process_median_ns": 1157.1174568965516
+      },
+      "text-16384": {
+        "median_ns": 51625.33157894737,
+        "process_medians_ns": [
+          47252.92857142857,
+          51625.33157894737,
+          53873.788944723616
+        ],
+        "min_process_median_ns": 47252.92857142857,
+        "max_process_median_ns": 53873.788944723616
+      },
+      "bytes-16384": {
+        "median_ns": 5547.345664739884,
+        "process_medians_ns": [
+          5196.58322324967,
+          5547.345664739884,
+          8292.099675850892
+        ],
+        "min_process_median_ns": 5196.58322324967,
+        "max_process_median_ns": 8292.099675850892
+      },
+      "text-unicode": {
+        "median_ns": 5913.664163090129,
+        "process_medians_ns": [
+          5476.415846456693,
+          5913.664163090129,
+          6194.082810539523
+        ],
+        "min_process_median_ns": 5476.415846456693,
+        "max_process_median_ns": 6194.082810539523
+      },
+      "record": {
+        "median_ns": 1909.8931883024252,
+        "process_medians_ns": [
+          1737.899590862598,
+          1965.0882809468374,
+          1909.8931883024252
+        ],
+        "min_process_median_ns": 1737.899590862598,
+        "max_process_median_ns": 1965.0882809468374
+      },
+      "imports-1": {
+        "median_ns": 765.5672543663604,
+        "process_medians_ns": [
+          700.5115039076766,
+          765.5672543663604,
+          771.5843496766801
+        ],
+        "min_process_median_ns": 700.5115039076766,
+        "max_process_median_ns": 771.5843496766801
+      },
+      "imports-10": {
+        "median_ns": 3591.90427769986,
+        "process_medians_ns": [
+          3402.1815363417154,
+          3789.49187759728,
+          3591.90427769986
+        ],
+        "min_process_median_ns": 3402.1815363417154,
+        "max_process_median_ns": 3789.49187759728
+      },
+      "imports-100": {
+        "median_ns": 30945.762345679013,
+        "process_medians_ns": [
+          30088.310030395136,
+          32910.86287625418,
+          30945.762345679013
+        ],
+        "min_process_median_ns": 30088.310030395136,
+        "max_process_median_ns": 32910.86287625418
+      },
+      "import-text-1024": {
+        "median_ns": 7615.907692307693,
+        "process_medians_ns": [
+          7142.7138945927445,
+          7684.065660377359,
+          7615.907692307693
+        ],
+        "min_process_median_ns": 7142.7138945927445,
+        "max_process_median_ns": 7684.065660377359
+      }
+    },
+    "instantiate_median_ns": 662760.0,
+    "first_scalar_median_ns": 41234917.0,
+    "compile_median_ms": 1467.3602230000001
+  }
+}

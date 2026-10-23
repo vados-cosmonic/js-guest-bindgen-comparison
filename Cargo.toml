@@ -1,0 +1,14 @@
+[workspace]
+resolver = "2"
+exclude = ["upstream/js-guest-bindgen", "upstream/componentize-js", "upstream/wasm-tools"]
+members = ["crates/generate", "crates/boa-a", "crates/boa-native", "crates/runner"]
+default-members = ["crates/generate"]
+
+[profile.release]
+opt-level = 3
+debug = 0
+strip = "debuginfo"
+
+[profile.dev]
+debug = 0
+incremental = false

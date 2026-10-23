@@ -1,0 +1,166 @@
+package root:component;
+
+world root {
+  import comparison:bench/host;
+  import comparison:bench/types;
+  import wasi:cli/exit@0.2.6;
+  import wasi:io/error@0.2.6;
+  import wasi:io/poll@0.2.6;
+  import wasi:io/streams@0.2.6;
+  import wasi:cli/stdin@0.2.6;
+  import wasi:cli/stdout@0.2.6;
+  import wasi:cli/stderr@0.2.6;
+  import wasi:cli/terminal-input@0.2.6;
+  import wasi:cli/terminal-output@0.2.6;
+  import wasi:cli/terminal-stdin@0.2.6;
+  import wasi:cli/terminal-stdout@0.2.6;
+  import wasi:cli/terminal-stderr@0.2.6;
+  import wasi:filesystem/types@0.2.6;
+  use comparison:bench/types.{payload};
+
+  export scalar: func(value: u32) -> u32;
+  export floating: func(value: f64) -> f64;
+  export text: func(value: string) -> string;
+  export bytes: func(value: list<u8>) -> list<u8>;
+  export structured: func(value: payload) -> payload;
+  export imports: func(count: u32) -> u32;
+  export import-text: func(value: string) -> string;
+}
+package comparison:bench {
+  interface host {
+    ping: func(value: u32) -> u32;
+
+    echo: func(value: string) -> string;
+  }
+  interface types {
+    record payload {
+      count: u32,
+      scale: f64,
+      label: string,
+    }
+  }
+}
+
+
+package wasi:io@0.2.6 {
+  interface error {
+    resource error;
+  }
+  interface poll {
+    resource pollable {
+      block: func();
+    }
+  }
+  interface streams {
+    use error.{error};
+    use poll.{pollable};
+
+    resource input-stream;
+
+    resource output-stream {
+      check-write: func() -> result<u64, stream-error>;
+      write: func(contents: list<u8>) -> result<_, stream-error>;
+      blocking-flush: func() -> result<_, stream-error>;
+      subscribe: func() -> pollable;
+    }
+
+    variant stream-error {
+      last-operation-failed(error),
+      closed,
+    }
+  }
+}
+
+
+package wasi:cli@0.2.6 {
+  interface exit {
+    exit: func(status: result);
+  }
+  interface stdin {
+    use wasi:io/streams@0.2.6.{input-stream};
+
+    get-stdin: func() -> input-stream;
+  }
+  interface stdout {
+    use wasi:io/streams@0.2.6.{output-stream};
+
+    get-stdout: func() -> output-stream;
+  }
+  interface stderr {
+    use wasi:io/streams@0.2.6.{output-stream};
+
+    get-stderr: func() -> output-stream;
+  }
+  interface terminal-input {
+    resource terminal-input;
+  }
+  interface terminal-output {
+    resource terminal-output;
+  }
+  interface terminal-stdin {
+    use terminal-input.{terminal-input};
+
+    get-terminal-stdin: func() -> option<terminal-input>;
+  }
+  interface terminal-stdout {
+    use terminal-output.{terminal-output};
+
+    get-terminal-stdout: func() -> option<terminal-output>;
+  }
+  interface terminal-stderr {
+    use terminal-output.{terminal-output};
+
+    get-terminal-stderr: func() -> option<terminal-output>;
+  }
+}
+
+
+package wasi:filesystem@0.2.6 {
+  interface types {
+    resource descriptor {
+      read: func(length: filesize, offset: filesize) -> result<tuple<list<u8>, bool>, error-code>;
+    }
+
+    type filesize = u64;
+
+    enum error-code {
+      access,
+      would-block,
+      already,
+      bad-descriptor,
+      busy,
+      deadlock,
+      quota,
+      exist,
+      file-too-large,
+      illegal-byte-sequence,
+      in-progress,
+      interrupted,
+      invalid,
+      io,
+      is-directory,
+      loop,
+      too-many-links,
+      message-size,
+      name-too-long,
+      no-device,
+      no-entry,
+      no-lock,
+      insufficient-memory,
+      insufficient-space,
+      not-directory,
+      not-empty,
+      not-recoverable,
+      unsupported,
+      no-tty,
+      no-such-device,
+      overflow,
+      not-permitted,
+      pipe,
+      read-only,
+      invalid-seek,
+      text-file-busy,
+      cross-device,
+    }
+  }
+}

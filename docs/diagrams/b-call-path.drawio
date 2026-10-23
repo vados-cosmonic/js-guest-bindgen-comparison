@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="B · specialized native runtime" id="b">
+    <mxGraphModel dx="1200" dy="1000" grid="1" page="1" pageWidth="1100" pageHeight="1050">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="1. Host calls a component export&lt;br&gt;Wasmtime lowers host values to the guest Canonical ABI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="75" y="80" width="950" height="82" />
+        </mxCell>
+        <mxCell id="3" value="2. Generated native runtime receives the core call&lt;br&gt;wit-bindgen-c output lifts memory / flat values into typed C values" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="75" y="193" width="950" height="82" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="4" value="3. Interface-specific native engine shim&lt;br&gt;Boxes typed values into Boa / Porffor values; no Canonical ABI layout work" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="75" y="306" width="950" height="82" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="5" value="4. Application JavaScript runs&lt;br&gt;Boa interprets JS bytecode · Porffor executes AOT-compiled Wasm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="75" y="419" width="950" height="82" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="6" value="5. Shim unboxes result → native runtime lowers it&lt;br&gt;Engine API conversion in shim; canonical offsets and result area in runtime" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="75" y="532" width="950" height="82" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="7" value="6. Host lifts result → canonical post-return&lt;br&gt;Generated runtime frees returned strings / lists; JS roots already released" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="75" y="645" width="950" height="82" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="imports" value="Nested host import (inside step 4)&lt;br&gt;componentize-js JS import wrapper → specialized native interface shim&lt;br&gt;Generated native runtime lowers args → host → lifts result → JS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="75" y="779" width="950" height="110" />
+        </mxCell>
+        <mxCell id="jobs" value="Jobs and asynchronous execution&lt;br&gt;Boa drains module jobs at initialization. No async WIT calls or P2 I/O poll loop in this world." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="75" y="916" width="950" height="90" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

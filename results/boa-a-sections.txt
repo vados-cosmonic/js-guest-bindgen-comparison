@@ -1,0 +1,191 @@
+component types                        |        0xa -       0x43 |        57 bytes | 1 count
+  component imports                      |       0x45 -       0x5d |        24 bytes | 1 count
+  component alias                        |       0x5f -       0x6c |        13 bytes | 1 count
+  component types                        |       0x6f -       0xf7 |       136 bytes | 1 count
+  component imports                      |       0xf9 -      0x120 |        39 bytes | 1 count
+  component types                        |      0x122 -      0x159 |        55 bytes | 1 count
+  component imports                      |      0x15b -      0x17d |        34 bytes | 1 count
+  component types                        |      0x17f -      0x19a |        27 bytes | 1 count
+  component imports                      |      0x19c -      0x1ba |        30 bytes | 1 count
+  component types                        |      0x1bc -      0x1c9 |        13 bytes | 1 count
+  component imports                      |      0x1cb -      0x1e4 |        25 bytes | 1 count
+  component alias                        |      0x1e6 -      0x1fc |        22 bytes | 2 count
+  component types                        |      0x1ff -      0x35f |       352 bytes | 1 count
+  component imports                      |      0x361 -      0x37c |        27 bytes | 1 count
+  component alias                        |      0x37e -      0x390 |        18 bytes | 1 count
+  component types                        |      0x392 -      0x3c4 |        50 bytes | 1 count
+  component imports                      |      0x3c6 -      0x3e1 |        27 bytes | 1 count
+  component alias                        |      0x3e3 -      0x3f5 |        18 bytes | 1 count
+  component types                        |      0x3f7 -      0x429 |        50 bytes | 1 count
+  component imports                      |      0x42b -      0x446 |        27 bytes | 1 count
+  component alias                        |      0x448 -      0x459 |        17 bytes | 1 count
+  component types                        |      0x45b -      0x48b |        48 bytes | 1 count
+  component imports                      |      0x48d -      0x4a7 |        26 bytes | 1 count
+  component types                        |      0x4a9 -      0x4cd |        36 bytes | 1 count
+  component imports                      |      0x4cf -      0x4ef |        32 bytes | 1 count
+  component types                        |      0x4f1 -      0x50e |        29 bytes | 1 count
+  component imports                      |      0x510 -      0x529 |        25 bytes | 1 count
+  component types                        |      0x52b -      0x541 |        22 bytes | 1 count
+  component imports                      |      0x543 -      0x566 |        35 bytes | 1 count
+  component types                        |      0x568 -      0x57f |        23 bytes | 1 count
+  component imports                      |      0x581 -      0x5a5 |        36 bytes | 1 count
+  component alias                        |      0x5a7 -      0x5ba |        19 bytes | 1 count
+  component types                        |      0x5bc -      0x5fa |        62 bytes | 1 count
+  component imports                      |      0x5fc -      0x61f |        35 bytes | 1 count
+  component alias                        |      0x621 -      0x635 |        20 bytes | 1 count
+  component types                        |      0x637 -      0x677 |        64 bytes | 1 count
+  component imports                      |      0x679 -      0x69d |        36 bytes | 1 count
+  component alias                        |      0x69f -      0x6b3 |        20 bytes | 1 count
+  component types                        |      0x6b5 -      0x6f5 |        64 bytes | 1 count
+  component imports                      |      0x6f7 -      0x71b |        36 bytes | 1 count
+  component types                        |      0x71d -      0x73c |        31 bytes | 1 count
+  component imports                      |      0x73e -      0x763 |        37 bytes | 1 count
+  component types                        |      0x765 -      0x792 |        45 bytes | 1 count
+  component imports                      |      0x794 -      0x7ae |        26 bytes | 1 count
+  component types                        |      0x7b0 -      0x7d8 |        40 bytes | 1 count
+  component imports                      |      0x7da -      0x7f5 |        27 bytes | 1 count
+  component alias                        |      0x7f7 -      0x803 |        12 bytes | 1 count
+  component imports                      |      0x805 -      0x812 |        13 bytes | 1 count
+  module                                 |      0x817 -   0x6e68aa |   7233683 bytes | 1 count
+    ------ start module 0 -------------
+    types                                |      0x822 -      0xac6 |       676 bytes | 83 count
+    imports                              |      0xac9 -      0xfb1 |      1256 bytes | 27 count
+    functions                            |      0xfb4 -     0x2d4d |      7577 bytes | 7575 count
+    tables                               |     0x2d4f -     0x2d56 |         7 bytes | 1 count
+    memories                             |     0x2d58 -     0x2d5b |         3 bytes | 1 count
+    globals                              |     0x2d5e -     0x351f |      1985 bytes | 312 count
+    exports                              |     0x3522 -     0x35ef |       205 bytes | 14 count
+    elements                             |     0x35f2 -     0x49b1 |      5055 bytes | 1 count
+    code                                 |     0x49b6 -   0x5a5a85 |   5902543 bytes | 7575 count
+    data                                 |   0x5a5a89 -   0x6e68aa |   1314337 bytes | 2 count
+    ------ end module 0 -------------
+  module                                 |   0x6e68ad -   0x6e698d |       224 bytes | 1 count
+    ------ start module 1 -------------
+    types                                |   0x6e68b7 -   0x6e68ce |        23 bytes | 4 count
+    functions                            |   0x6e68d0 -   0x6e68db |        11 bytes | 10 count
+    tables                               |   0x6e68dd -   0x6e68e2 |         5 bytes | 1 count
+    exports                              |   0x6e68e4 -   0x6e6918 |        52 bytes | 11 count
+    code                                 |   0x6e691a -   0x6e698d |       115 bytes | 10 count
+    ------ end module 1 -------------
+  module                                 |   0x6e698f -   0x6e6a06 |       119 bytes | 1 count
+    ------ start module 2 -------------
+    types                                |   0x6e6999 -   0x6e69b0 |        23 bytes | 4 count
+    imports                              |   0x6e69b2 -   0x6e69f4 |        66 bytes | 11 count
+    elements                             |   0x6e69f6 -   0x6e6a06 |        16 bytes | 1 count
+    ------ end module 2 -------------
+  core instances                         |   0x6e6a08 -   0x6e6a0c |         4 bytes | 1 count
+  component alias                        |   0x6e6a0e -   0x6e6a17 |         9 bytes | 1 count
+  canonical functions                    |   0x6e6a19 -   0x6e6a1e |         5 bytes | 1 count
+  component alias                        |   0x6e6a20 -   0x6e6a27 |         7 bytes | 1 count
+  core instances                         |   0x6e6a29 -   0x6e6a3a |        17 bytes | 1 count
+  component alias                        |   0x6e6a3c -   0x6e6a4f |        19 bytes | 1 count
+  canonical functions                    |   0x6e6a51 -   0x6e6a56 |         5 bytes | 1 count
+  core instances                         |   0x6e6a58 -   0x6e6a6c |        20 bytes | 1 count
+  component alias                        |   0x6e6a6e -   0x6e6a75 |         7 bytes | 1 count
+  core instances                         |   0x6e6a77 -   0x6e6a8a |        19 bytes | 1 count
+  component alias                        |   0x6e6a8c -   0x6e6a96 |        10 bytes | 1 count
+  canonical functions                    |   0x6e6a98 -   0x6e6a9b |         3 bytes | 1 count
+  core instances                         |   0x6e6a9d -   0x6e6ab7 |        26 bytes | 1 count
+  component alias                        |   0x6e6ab9 -   0x6e6ac6 |        13 bytes | 1 count
+  canonical functions                    |   0x6e6ac8 -   0x6e6acb |         3 bytes | 1 count
+  component alias                        |   0x6e6acd -   0x6e6ae8 |        27 bytes | 1 count
+  canonical functions                    |   0x6e6aea -   0x6e6aef |         5 bytes | 1 count
+  core instances                         |   0x6e6af1 -   0x6e6b27 |        54 bytes | 1 count
+  component alias                        |   0x6e6b29 -   0x6e6b3a |        17 bytes | 1 count
+  canonical functions                    |   0x6e6b3c -   0x6e6b3f |         3 bytes | 1 count
+  component alias                        |   0x6e6b41 -   0x6e6b53 |        18 bytes | 1 count
+  canonical functions                    |   0x6e6b55 -   0x6e6b58 |         3 bytes | 1 count
+  component alias                        |   0x6e6b5a -   0x6e6b90 |        54 bytes | 4 count
+  canonical functions                    |   0x6e6b92 -   0x6e6b97 |         5 bytes | 1 count
+  core instances                         |   0x6e6b9a -   0x6e6c65 |       203 bytes | 1 count
+  component alias                        |   0x6e6c67 -   0x6e6c7a |        19 bytes | 1 count
+  canonical functions                    |   0x6e6c7c -   0x6e6c7f |         3 bytes | 1 count
+  core instances                         |   0x6e6c81 -   0x6e6ca4 |        35 bytes | 1 count
+  component alias                        |   0x6e6ca6 -   0x6e6cba |        20 bytes | 1 count
+  canonical functions                    |   0x6e6cbc -   0x6e6cbf |         3 bytes | 1 count
+  core instances                         |   0x6e6cc1 -   0x6e6ce5 |        36 bytes | 1 count
+  component alias                        |   0x6e6ce7 -   0x6e6cee |         7 bytes | 1 count
+  core instances                         |   0x6e6cf0 -   0x6e6d05 |        21 bytes | 1 count
+  component alias                        |   0x6e6d07 -   0x6e6d10 |         9 bytes | 1 count
+  canonical functions                    |   0x6e6d12 -   0x6e6d17 |         5 bytes | 1 count
+  core instances                         |   0x6e6d19 -   0x6e6d23 |        10 bytes | 1 count
+  component alias                        |   0x6e6d25 -   0x6e6d33 |        14 bytes | 1 count
+  canonical functions                    |   0x6e6d35 -   0x6e6d3a |         5 bytes | 1 count
+  core instances                         |   0x6e6d3c -   0x6e6d4b |        15 bytes | 1 count
+  component alias                        |   0x6e6d4d -   0x6e6d5c |        15 bytes | 1 count
+  canonical functions                    |   0x6e6d5e -   0x6e6d63 |         5 bytes | 1 count
+  core instances                         |   0x6e6d65 -   0x6e6d75 |        16 bytes | 1 count
+  component alias                        |   0x6e6d77 -   0x6e6d86 |        15 bytes | 1 count
+  canonical functions                    |   0x6e6d88 -   0x6e6d8d |         5 bytes | 1 count
+  core instances                         |   0x6e6d8f -   0x6e6d9f |        16 bytes | 1 count
+  component alias                        |   0x6e6da1 -   0x6e6da8 |         7 bytes | 1 count
+  core instances                         |   0x6e6daa -   0x6e6dc2 |        24 bytes | 1 count
+  component alias                        |   0x6e6dc4 -   0x6e6dcb |         7 bytes | 1 count
+  core instances                         |   0x6e6dcd -   0x6e6de6 |        25 bytes | 1 count
+  component alias                        |   0x6e6de8 -   0x6e6def |         7 bytes | 1 count
+  core instances                         |   0x6e6df1 -   0x6e6e0a |        25 bytes | 1 count
+  component alias                        |   0x6e6e0c -   0x6e6e14 |         8 bytes | 1 count
+  canonical functions                    |   0x6e6e16 -   0x6e6e1b |         5 bytes | 1 count
+  component alias                        |   0x6e6e1d -   0x6e6e33 |        22 bytes | 1 count
+  canonical functions                    |   0x6e6e35 -   0x6e6e3a |         5 bytes | 1 count
+  component alias                        |   0x6e6e3c -   0x6e6e53 |        23 bytes | 1 count
+  canonical functions                    |   0x6e6e55 -   0x6e6e5a |         5 bytes | 1 count
+  core instances                         |   0x6e6e5c -   0x6e6e8e |        50 bytes | 1 count
+  component alias                        |   0x6e6e90 -   0x6e6e97 |         7 bytes | 1 count
+  core instances                         |   0x6e6e9a -   0x6e709f |       517 bytes | 2 count
+  component alias                        |   0x6e70a1 -   0x6e70d3 |        50 bytes | 4 count
+  canonical functions                    |   0x6e70d5 -   0x6e70df |        10 bytes | 1 count
+  component alias                        |   0x6e70e1 -   0x6e70f3 |        18 bytes | 1 count
+  canonical functions                    |   0x6e70f5 -   0x6e70fc |         7 bytes | 1 count
+  component alias                        |   0x6e70fe -   0x6e7124 |        38 bytes | 1 count
+  canonical functions                    |   0x6e7126 -   0x6e712d |         7 bytes | 1 count
+  component alias                        |   0x6e712f -   0x6e714f |        32 bytes | 1 count
+  canonical functions                    |   0x6e7151 -   0x6e7158 |         7 bytes | 1 count
+  component alias                        |   0x6e715a -   0x6e7183 |        41 bytes | 1 count
+  canonical functions                    |   0x6e7185 -   0x6e718c |         7 bytes | 1 count
+  component alias                        |   0x6e718e -   0x6e71a2 |        20 bytes | 1 count
+  canonical functions                    |   0x6e71a4 -   0x6e71ae |        10 bytes | 1 count
+  component alias                        |   0x6e71b0 -   0x6e71c7 |        23 bytes | 1 count
+  canonical functions                    |   0x6e71c9 -   0x6e71d0 |         7 bytes | 1 count
+  component alias                        |   0x6e71d2 -   0x6e71ea |        24 bytes | 1 count
+  canonical functions                    |   0x6e71ec -   0x6e71f3 |         7 bytes | 1 count
+  component alias                        |   0x6e71f5 -   0x6e720d |        24 bytes | 1 count
+  canonical functions                    |   0x6e720f -   0x6e7216 |         7 bytes | 1 count
+  component alias                        |   0x6e7218 -   0x6e7220 |         8 bytes | 1 count
+  canonical functions                    |   0x6e7222 -   0x6e7229 |         7 bytes | 1 count
+  core instances                         |   0x6e722b -   0x6e7267 |        60 bytes | 2 count
+  component alias                        |   0x6e7269 -   0x6e727a |        17 bytes | 1 count
+  module                                 |   0x6e727c -   0x6e7294 |        24 bytes | 1 count
+    ------ start module 3 -------------
+    types                                |   0x6e7286 -   0x6e728a |         4 bytes | 1 count
+    imports                              |   0x6e728c -   0x6e7291 |         5 bytes | 1 count
+    start                                |   0x6e7293 -   0x6e7294 |         1 bytes | 1 count
+    ------ end module 3 -------------
+  core instances                         |   0x6e7296 -   0x6e72a2 |        12 bytes | 2 count
+  component types                        |   0x6e72a4 -   0x6e72b0 |        12 bytes | 1 count
+  component alias                        |   0x6e72b2 -   0x6e72be |        12 bytes | 1 count
+  canonical functions                    |   0x6e72c0 -   0x6e72c6 |         6 bytes | 1 count
+  component exports                      |   0x6e72c8 -   0x6e72d4 |        12 bytes | 1 count
+  component types                        |   0x6e72d6 -   0x6e72e2 |        12 bytes | 1 count
+  component alias                        |   0x6e72e4 -   0x6e72f2 |        14 bytes | 1 count
+  canonical functions                    |   0x6e72f4 -   0x6e72fa |         6 bytes | 1 count
+  component exports                      |   0x6e72fc -   0x6e730a |        14 bytes | 1 count
+  component types                        |   0x6e730c -   0x6e7318 |        12 bytes | 1 count
+  component alias                        |   0x6e731a -   0x6e7337 |        29 bytes | 2 count
+  canonical functions                    |   0x6e7339 -   0x6e7346 |        13 bytes | 1 count
+  component exports                      |   0x6e7348 -   0x6e7352 |        10 bytes | 1 count
+  component types                        |   0x6e7354 -   0x6e7362 |        14 bytes | 2 count
+  component alias                        |   0x6e7364 -   0x6e7383 |        31 bytes | 2 count
+  canonical functions                    |   0x6e7385 -   0x6e7391 |        12 bytes | 1 count
+  component exports                      |   0x6e7393 -   0x6e739e |        11 bytes | 1 count
+  component types                        |   0x6e73a0 -   0x6e73ac |        12 bytes | 1 count
+  component alias                        |   0x6e73ae -   0x6e73d7 |        41 bytes | 2 count
+  canonical functions                    |   0x6e73d9 -   0x6e73e6 |        13 bytes | 1 count
+  component exports                      |   0x6e73e8 -   0x6e73f8 |        16 bytes | 1 count
+  component types                        |   0x6e73fa -   0x6e7406 |        12 bytes | 1 count
+  component alias                        |   0x6e7408 -   0x6e7415 |        13 bytes | 1 count
+  canonical functions                    |   0x6e7417 -   0x6e741d |         6 bytes | 1 count
+  component exports                      |   0x6e741f -   0x6e742c |        13 bytes | 1 count
+  component alias                        |   0x6e742e -   0x6e7459 |        43 bytes | 2 count
+  canonical functions                    |   0x6e745b -   0x6e7468 |        13 bytes | 1 count
+  component exports                      |   0x6e746a -   0x6e747b |        17 bytes | 1 count

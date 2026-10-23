@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1050" viewBox="0 0 1100 1050">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#566274"/></marker></defs>
+<rect width="1100" height="1050" fill="white"/>
+<text x="50" y="48" font-family="Arial,sans-serif" font-size="27" font-weight="bold" fill="#243746">B · specialized native runtime</text>
+<rect x="75" y="80" width="950" height="82" rx="9" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<text x="550.0" y="109" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#243746">1. Host calls a component export</text>
+<text x="550.0" y="133" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="normal" fill="#243746">Wasmtime lowers host values to the guest Canonical ABI</text>
+<rect x="75" y="193" width="950" height="82" rx="9" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+<text x="550.0" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#243746">2. Generated native runtime receives the core call</text>
+<text x="550.0" y="246" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="normal" fill="#243746">wit-bindgen-c output lifts memory / flat values into typed C values</text>
+<path d="M550,162 L550,188" stroke="#566274" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="75" y="306" width="950" height="82" rx="9" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+<text x="550.0" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#243746">3. Interface-specific native engine shim</text>
+<text x="550.0" y="359" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="normal" fill="#243746">Boxes typed values into Boa / Porffor values; no Canonical ABI layout work</text>
+<path d="M550,275 L550,301" stroke="#566274" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="75" y="419" width="950" height="82" rx="9" fill="#fff2cc" stroke="#d6b656" stroke-width="2"/>
+<text x="550.0" y="448" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#243746">4. Application JavaScript runs</text>
+<text x="550.0" y="472" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="normal" fill="#243746">Boa interprets JS bytecode · Porffor executes AOT-compiled Wasm</text>
+<path d="M550,388 L550,414" stroke="#566274" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="75" y="532" width="950" height="82" rx="9" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+<text x="550.0" y="561" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#243746">5. Shim unboxes result → native runtime lowers it</text>
+<text x="550.0" y="585" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="normal" fill="#243746">Engine API conversion in shim; canonical offsets and result area in runtime</text>
+<path d="M550,501 L550,527" stroke="#566274" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="75" y="645" width="950" height="82" rx="9" fill="#e1d5e7" stroke="#9673a6" stroke-width="2"/>
+<text x="550.0" y="674" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#243746">6. Host lifts result → canonical post-return</text>
+<text x="550.0" y="698" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="normal" fill="#243746">Generated runtime frees returned strings / lists; JS roots already released</text>
+<path d="M550,614 L550,640" stroke="#566274" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="75" y="779" width="950" height="110" rx="9" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<text x="550.0" y="808" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#243746">Nested host import (inside step 4)</text>
+<text x="550.0" y="832" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="normal" fill="#243746">componentize-js JS import wrapper → specialized native interface shim</text>
+<text x="550.0" y="856" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="normal" fill="#243746">Generated native runtime lowers args → host → lifts result → JS</text>
+<rect x="75" y="916" width="950" height="90" rx="9" fill="#f5f5f5" stroke="#666666" stroke-width="2"/>
+<text x="550.0" y="945" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#243746">Jobs and asynchronous execution</text>
+<text x="550.0" y="969" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="normal" fill="#243746">Boa drains module jobs at initialization. No async WIT calls or P2 I/O poll loop in this world.</text>
+</svg>

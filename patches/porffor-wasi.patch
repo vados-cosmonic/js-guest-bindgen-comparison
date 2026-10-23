@@ -1,0 +1,14 @@
+diff -ruN a/compiler/render.js b/compiler/render.js
+--- a/compiler/render.js
++++ b/compiler/render.js
+@@ -4227,7 +4227,9 @@
+ #define PORF_ONCE
+ #endif
+ #define PORF_NORETURN __attribute__((cold, noinline, noreturn))
+-#ifndef MAP_NORESERVE
++#if defined(__wasi__) || !defined(MAP_NORESERVE)
++// wasi declares MAP_NORESERVE but its emulated mmap rejects it
++#undef MAP_NORESERVE
+ #define MAP_NORESERVE 0
+ #endif
+ #ifdef __wasi__

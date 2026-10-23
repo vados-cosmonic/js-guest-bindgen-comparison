@@ -1,0 +1,30 @@
+{
+  "js-guest-bindgen": {
+    "url": "https://github.com/MendyBerger/js-guest-bindgen.git",
+    "commit": "d3d18ccf193ced5140511f1ad44a7b3830869770"
+  },
+  "wasm-tools": {
+    "url": "https://github.com/bytecodealliance/wasm-tools.git",
+    "commit": "288ee8acf5f57c737190dc9903de1ed4ce49b106"
+  },
+  "componentize-js": {
+    "url": "https://github.com/dicej/componentize-js.git",
+    "commit": "ffa945621842c27c4dd992bed54ecc4375de5b49"
+  },
+  "porffor": {
+    "url": "https://github.com/CanadaHonk/porffor.git",
+    "commit": "0c135ce2f36fdd3467d5a58daa92283810705a51",
+    "patch": "patches/porffor-wasi.patch"
+  },
+  "build": {
+    "rust": "1.99.0",
+    "boa_engine": "0.22.0",
+    "wit-dylib": "0.254.0",
+    "wit-bindgen-c": "0.62.0",
+    "wasmtime": "50.0.0",
+    "wasi-sdk": "30.0",
+    "esbuild": "0.28.2",
+    "wit_dylib_header": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/v1.254.0/crates/wit-dylib/wit_dylib.h",
+    "wit_dylib_header_sha256": "0e63d682407601e82be435cebf8711da194eea95a186a4061d042d5b69055f42"
+  }
+}

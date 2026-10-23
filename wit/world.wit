@@ -1,0 +1,19 @@
+package comparison:bench;
+interface types {
+  record payload { count: u32, scale: f64, label: string }
+}
+interface host {
+  ping: func(value: u32) -> u32;
+  echo: func(value: string) -> string;
+}
+world bench {
+  use types.{payload};
+  import host;
+  export scalar: func(value: u32) -> u32;
+  export floating: func(value: f64) -> f64;
+  export text: func(value: string) -> string;
+  export bytes: func(value: list<u8>) -> list<u8>;
+  export structured: func(value: payload) -> payload;
+  export imports: func(count: u32) -> u32;
+  export import-text: func(value: string) -> string;
+}

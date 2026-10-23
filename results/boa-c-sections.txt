@@ -1,0 +1,518 @@
+component types                        |        0xa -       0x81 |       119 bytes | 1 count
+  component imports                      |       0x83 -       0x9b |        24 bytes | 1 count
+  component alias                        |       0x9d -       0xaa |        13 bytes | 1 count
+  component types                        |       0xad -      0x149 |       156 bytes | 1 count
+  component imports                      |      0x14b -      0x172 |        39 bytes | 1 count
+  component types                        |      0x174 -      0x1ba |        70 bytes | 1 count
+  component imports                      |      0x1bc -      0x1de |        34 bytes | 1 count
+  component types                        |      0x1e0 -      0x21d |        61 bytes | 1 count
+  component imports                      |      0x21f -      0x23d |        30 bytes | 1 count
+  component types                        |      0x23f -      0x27c |        61 bytes | 1 count
+  component imports                      |      0x27e -      0x297 |        25 bytes | 1 count
+  component alias                        |      0x299 -      0x2af |        22 bytes | 2 count
+  component types                        |      0x2b2 -      0x617 |       869 bytes | 1 count
+  component imports                      |      0x619 -      0x634 |        27 bytes | 1 count
+  component alias                        |      0x636 -      0x648 |        18 bytes | 1 count
+  component types                        |      0x64a -      0x67c |        50 bytes | 1 count
+  component imports                      |      0x67e -      0x699 |        27 bytes | 1 count
+  component alias                        |      0x69b -      0x6ad |        18 bytes | 1 count
+  component types                        |      0x6af -      0x6e1 |        50 bytes | 1 count
+  component imports                      |      0x6e3 -      0x6fe |        27 bytes | 1 count
+  component alias                        |      0x700 -      0x711 |        17 bytes | 1 count
+  component types                        |      0x713 -      0x743 |        48 bytes | 1 count
+  component imports                      |      0x745 -      0x75f |        26 bytes | 1 count
+  component types                        |      0x761 -      0x7b7 |        86 bytes | 1 count
+  component imports                      |      0x7b9 -      0x7d9 |        32 bytes | 1 count
+  component types                        |      0x7db -      0x7f8 |        29 bytes | 1 count
+  component imports                      |      0x7fa -      0x813 |        25 bytes | 1 count
+  component types                        |      0x815 -      0x82b |        22 bytes | 1 count
+  component imports                      |      0x82d -      0x850 |        35 bytes | 1 count
+  component types                        |      0x852 -      0x869 |        23 bytes | 1 count
+  component imports                      |      0x86b -      0x88f |        36 bytes | 1 count
+  component alias                        |      0x891 -      0x8a4 |        19 bytes | 1 count
+  component types                        |      0x8a6 -      0x8e4 |        62 bytes | 1 count
+  component imports                      |      0x8e6 -      0x909 |        35 bytes | 1 count
+  component alias                        |      0x90b -      0x91f |        20 bytes | 1 count
+  component types                        |      0x921 -      0x961 |        64 bytes | 1 count
+  component imports                      |      0x963 -      0x987 |        36 bytes | 1 count
+  component alias                        |      0x989 -      0x99d |        20 bytes | 1 count
+  component types                        |      0x99f -      0x9df |        64 bytes | 1 count
+  component imports                      |      0x9e1 -      0xa05 |        36 bytes | 1 count
+  component alias                        |      0xa07 -      0xa3e |        55 bytes | 4 count
+  component types                        |      0xa41 -     0x1639 |      3064 bytes | 1 count
+  component imports                      |     0x163b -     0x165c |        33 bytes | 1 count
+  component alias                        |     0x165e -     0x166d |        15 bytes | 1 count
+  component types                        |     0x166f -     0x16ab |        60 bytes | 1 count
+  component imports                      |     0x16ad -     0x16d1 |        36 bytes | 1 count
+  component types                        |     0x16d4 -     0x196c |       664 bytes | 1 count
+  component imports                      |     0x196e -     0x198e |        32 bytes | 1 count
+  component alias                        |     0x1990 -     0x199c |        12 bytes | 1 count
+  component types                        |     0x199e -     0x19d0 |        50 bytes | 1 count
+  component imports                      |     0x19d2 -     0x19fb |        41 bytes | 1 count
+  component alias                        |     0x19fd -     0x1a4d |        80 bytes | 5 count
+  component types                        |     0x1a50 -     0x1f88 |      1336 bytes | 1 count
+  component imports                      |     0x1f8a -     0x1fa6 |        28 bytes | 1 count
+  component alias                        |     0x1fa8 -     0x1fda |        50 bytes | 3 count
+  component types                        |     0x1fdc -     0x2059 |       125 bytes | 1 count
+  component imports                      |     0x205b -     0x2085 |        42 bytes | 1 count
+  component alias                        |     0x2087 -     0x2104 |       125 bytes | 8 count
+  component types                        |     0x2107 -     0x27d8 |      1745 bytes | 1 count
+  component imports                      |     0x27da -     0x27f6 |        28 bytes | 1 count
+  component alias                        |     0x27f8 -     0x282a |        50 bytes | 3 count
+  component types                        |     0x282c -     0x28a9 |       125 bytes | 1 count
+  component imports                      |     0x28ab -     0x28d5 |        42 bytes | 1 count
+  component alias                        |     0x28d7 -     0x290b |        52 bytes | 4 count
+  component types                        |     0x290e -     0x2a3b |       301 bytes | 1 count
+  component imports                      |     0x2a3d -     0x2a64 |        39 bytes | 1 count
+  component types                        |     0x2a66 -     0x2ab5 |        79 bytes | 1 count
+  component imports                      |     0x2ab7 -     0x2ad7 |        32 bytes | 1 count
+  component types                        |     0x2ad9 -     0x2af8 |        31 bytes | 1 count
+  component imports                      |     0x2afa -     0x2b1f |        37 bytes | 1 count
+  component types                        |     0x2b21 -     0x2b4e |        45 bytes | 1 count
+  component imports                      |     0x2b50 -     0x2b6a |        26 bytes | 1 count
+  component types                        |     0x2b6c -     0x2b94 |        40 bytes | 1 count
+  component imports                      |     0x2b96 -     0x2bb1 |        27 bytes | 1 count
+  component alias                        |     0x2bb3 -     0x2bbf |        12 bytes | 1 count
+  component imports                      |     0x2bc1 -     0x2bce |        13 bytes | 1 count
+  module                                 |     0x2bd2 -    0x19840 |     93294 bytes | 1 count
+    ------ start module 0 -------------
+    types                                |     0x2bdd -     0x3af6 |      3865 bytes | 558 count
+    imports                              |     0x3af8 -     0x3af9 |         1 bytes | 0 count
+    functions                            |     0x3afc -     0x3eda |       990 bytes | 558 count
+    tables                               |     0x3edc -     0x3ee1 |         5 bytes | 1 count
+    memories                             |     0x3ee3 -     0x3ee6 |         3 bytes | 1 count
+    globals                              |     0x3ee9 -     0x48b1 |      2504 bytes | 426 count
+    exports                              |     0x48b5 -    0x173e9 |     76596 bytes | 986 count
+    code                                 |    0x173ec -    0x19840 |      9300 bytes | 558 count
+    ------ end module 0 -------------
+  module                                 |    0x19842 -    0x19874 |        50 bytes | 1 count
+    ------ start module 1 -------------
+    types                                |    0x1984c -    0x19853 |         7 bytes | 1 count
+    functions                            |    0x19855 -    0x19857 |         2 bytes | 1 count
+    exports                              |    0x19859 -    0x1986d |        20 bytes | 1 count
+    code                                 |    0x1986f -    0x19874 |         5 bytes | 1 count
+    ------ end module 1 -------------
+  module                                 |    0x19879 -   0x845423 |   8567722 bytes | 1 count
+    ------ start module 2 -------------
+    types                                |    0x19884 -    0x19b19 |       661 bytes | 81 count
+    imports                              |    0x19b1d -    0x238b8 |     40347 bytes | 444 count
+    functions                            |    0x238bb -    0x256ec |      7729 bytes | 7727 count
+    globals                              |    0x256ef -    0x25860 |       369 bytes | 49 count
+    exports                              |    0x25864 -    0x2ebc9 |     37733 bytes | 467 count
+    start                                |    0x2ebcb -    0x2ebcc |         1 bytes | 1 count
+    elements                             |    0x2ebcf -    0x2fd36 |      4455 bytes | 1 count
+    code                                 |    0x2fd3b -   0x70a5e3 |   7186600 bytes | 7727 count
+    data                                 |   0x70a5e7 -   0x845423 |   1289788 bytes | 2 count
+    ------ end module 2 -------------
+  module                                 |   0x845427 -   0x8ddc7a |    624723 bytes | 1 count
+    ------ start module 3 -------------
+    types                                |   0x845432 -   0x8456ee |       700 bytes | 100 count
+    imports                              |   0x8456f1 -   0x848548 |     11863 bytes | 339 count
+    functions                            |   0x84854b -   0x848b31 |      1510 bytes | 1508 count
+    globals                              |   0x848b34 -   0x848c15 |       225 bytes | 33 count
+    exports                              |   0x848c19 -   0x84effc |     25571 bytes | 1405 count
+    start                                |   0x84effe -   0x84f000 |         2 bytes | 1 count
+    elements                             |   0x84f003 -   0x84f09f |       156 bytes | 1 count
+    code                                 |   0x84f0a3 -   0x8ab0db |    376888 bytes | 1508 count
+    data                                 |   0x8ab0df -   0x8ddc7a |    207771 bytes | 2 count
+    ------ end module 3 -------------
+  module                                 |   0x8ddc7d -   0x8dedc1 |      4420 bytes | 1 count
+    ------ start module 4 -------------
+    types                                |   0x8ddc87 -   0x8ddceb |       100 bytes | 18 count
+    imports                              |   0x8ddcee -   0x8de3fc |      1806 bytes | 69 count
+    functions                            |   0x8de3fe -   0x8de411 |        19 bytes | 18 count
+    exports                              |   0x8de414 -   0x8de529 |       277 bytes | 17 count
+    elements                             |   0x8de52b -   0x8de535 |        10 bytes | 1 count
+    code                                 |   0x8de538 -   0x8deb54 |      1564 bytes | 18 count
+    data                                 |   0x8deb57 -   0x8dedc1 |       618 bytes | 1 count
+    ------ end module 4 -------------
+  module                                 |   0x8dedc4 -   0x8df6ab |      2279 bytes | 1 count
+    ------ start module 5 -------------
+    types                                |   0x8dedcf -   0x8dee60 |       145 bytes | 17 count
+    functions                            |   0x8dee62 -   0x8deec7 |       101 bytes | 100 count
+    tables                               |   0x8deec9 -   0x8deece |         5 bytes | 1 count
+    exports                              |   0x8deed1 -   0x8df0c7 |       502 bytes | 101 count
+    code                                 |   0x8df0ca -   0x8df6ab |      1505 bytes | 100 count
+    ------ end module 5 -------------
+  core instances                         |   0x8df6ad -   0x8df6b4 |         7 bytes | 2 count
+  component alias                        |   0x8df6b6 -   0x8df6c2 |        12 bytes | 1 count
+  core instances                         |   0x8df6c4 -   0x8df6c8 |         4 bytes | 1 count
+  component alias                        |   0x8df6cb -   0x8df90e |       579 bytes | 47 count
+  core instances                         |   0x8df911 -   0x8dfaeb |       474 bytes | 1 count
+  component alias                        |   0x8dfaed -   0x8dfb00 |        19 bytes | 1 count
+  canonical functions                    |   0x8dfb02 -   0x8dfb07 |         5 bytes | 1 count
+  core instances                         |   0x8dfb09 -   0x8dfb1d |        20 bytes | 1 count
+  component alias                        |   0x8dfb1f -   0x8dfb26 |         7 bytes | 1 count
+  core instances                         |   0x8dfb28 -   0x8dfb3b |        19 bytes | 1 count
+  component alias                        |   0x8dfb3f -   0x8e8940 |     36353 bytes | 342 count
+  core instances                         |   0x8e8944 -   0x8f0408 |     31428 bytes | 1 count
+  component alias                        |   0x8f040b -   0x8f18a5 |      5274 bytes | 52 count
+  core instances                         |   0x8f18a8 -   0x8f2ac4 |      4636 bytes | 2 count
+  component alias                        |   0x8f2ac7 -   0x8f36c2 |      3067 bytes | 176 count
+  core instances                         |   0x8f36c5 -   0x8f41fa |      2869 bytes | 1 count
+  component alias                        |   0x8f41fc -   0x8f4206 |        10 bytes | 1 count
+  canonical functions                    |   0x8f4208 -   0x8f420b |         3 bytes | 1 count
+  component alias                        |   0x8f420d -   0x8f4214 |         7 bytes | 1 count
+  core instances                         |   0x8f4216 -   0x8f4252 |        60 bytes | 1 count
+  component alias                        |   0x8f4254 -   0x8f4261 |        13 bytes | 1 count
+  canonical functions                    |   0x8f4263 -   0x8f4266 |         3 bytes | 1 count
+  component alias                        |   0x8f4268 -   0x8f4283 |        27 bytes | 1 count
+  canonical functions                    |   0x8f4285 -   0x8f428a |         5 bytes | 1 count
+  component alias                        |   0x8f428c -   0x8f42a7 |        27 bytes | 1 count
+  canonical functions                    |   0x8f42a9 -   0x8f42ae |         5 bytes | 1 count
+  component alias                        |   0x8f42b0 -   0x8f42b7 |         7 bytes | 1 count
+  core instances                         |   0x8f42b9 -   0x8f4313 |        90 bytes | 1 count
+  component alias                        |   0x8f4315 -   0x8f4326 |        17 bytes | 1 count
+  canonical functions                    |   0x8f4328 -   0x8f432b |         3 bytes | 1 count
+  component alias                        |   0x8f432d -   0x8f433f |        18 bytes | 1 count
+  canonical functions                    |   0x8f4341 -   0x8f4344 |         3 bytes | 1 count
+  component alias                        |   0x8f4346 -   0x8f4381 |        59 bytes | 5 count
+  canonical functions                    |   0x8f4383 -   0x8f4388 |         5 bytes | 1 count
+  component alias                        |   0x8f438a -   0x8f43ce |        68 bytes | 6 count
+  canonical functions                    |   0x8f43d0 -   0x8f43d5 |         5 bytes | 1 count
+  component alias                        |   0x8f43d7 -   0x8f43f4 |        29 bytes | 4 count
+  core instances                         |   0x8f43f7 -   0x8f4669 |       626 bytes | 1 count
+  component alias                        |   0x8f466b -   0x8f467e |        19 bytes | 1 count
+  canonical functions                    |   0x8f4680 -   0x8f4683 |         3 bytes | 1 count
+  core instances                         |   0x8f4685 -   0x8f46a9 |        36 bytes | 1 count
+  component alias                        |   0x8f46ab -   0x8f46bf |        20 bytes | 1 count
+  canonical functions                    |   0x8f46c1 -   0x8f46c4 |         3 bytes | 1 count
+  core instances                         |   0x8f46c6 -   0x8f46eb |        37 bytes | 1 count
+  component alias                        |   0x8f46ed -   0x8f46fc |        15 bytes | 1 count
+  canonical functions                    |   0x8f46fe -   0x8f4701 |         3 bytes | 1 count
+  component alias                        |   0x8f4703 -   0x8f471e |        27 bytes | 1 count
+  canonical functions                    |   0x8f4720 -   0x8f4723 |         3 bytes | 1 count
+  component alias                        |   0x8f4726 -   0x8f47f4 |       206 bytes | 25 count
+  canonical functions                    |   0x8f47f6 -   0x8f47fb |         5 bytes | 1 count
+  component alias                        |   0x8f47fd -   0x8f481a |        29 bytes | 4 count
+  core instances                         |   0x8f481d -   0x8f4c41 |      1060 bytes | 1 count
+  component alias                        |   0x8f4c43 -   0x8f4c4f |        12 bytes | 1 count
+  canonical functions                    |   0x8f4c51 -   0x8f4c54 |         3 bytes | 1 count
+  core instances                         |   0x8f4c56 -   0x8f4c73 |        29 bytes | 1 count
+  component alias                        |   0x8f4c75 -   0x8f4c84 |        15 bytes | 1 count
+  canonical functions                    |   0x8f4c86 -   0x8f4c89 |         3 bytes | 1 count
+  component alias                        |   0x8f4c8b -   0x8f4ca8 |        29 bytes | 1 count
+  canonical functions                    |   0x8f4caa -   0x8f4cad |         3 bytes | 1 count
+  component alias                        |   0x8f4caf -   0x8f4ccc |        29 bytes | 1 count
+  canonical functions                    |   0x8f4cce -   0x8f4cd1 |         3 bytes | 1 count
+  component alias                        |   0x8f4cd3 -   0x8f4d1c |        73 bytes | 6 count
+  canonical functions                    |   0x8f4d1e -   0x8f4d23 |         5 bytes | 1 count
+  component alias                        |   0x8f4d25 -   0x8f4d70 |        75 bytes | 7 count
+  canonical functions                    |   0x8f4d72 -   0x8f4d77 |         5 bytes | 1 count
+  component alias                        |   0x8f4d79 -   0x8f4daf |        54 bytes | 2 count
+  canonical functions                    |   0x8f4db1 -   0x8f4db6 |         5 bytes | 1 count
+  component alias                        |   0x8f4db8 -   0x8f4df5 |        61 bytes | 3 count
+  canonical functions                    |   0x8f4df7 -   0x8f4dfc |         5 bytes | 1 count
+  core instances                         |   0x8f4dff -   0x8f5141 |       834 bytes | 1 count
+  component alias                        |   0x8f5143 -   0x8f5152 |        15 bytes | 1 count
+  canonical functions                    |   0x8f5154 -   0x8f5157 |         3 bytes | 1 count
+  component alias                        |   0x8f5159 -   0x8f51bc |        99 bytes | 10 count
+  canonical functions                    |   0x8f51be -   0x8f51c3 |         5 bytes | 1 count
+  component alias                        |   0x8f51c5 -   0x8f51eb |        38 bytes | 1 count
+  canonical functions                    |   0x8f51ed -   0x8f51f2 |         5 bytes | 1 count
+  component alias                        |   0x8f51f5 -   0x8f527f |       138 bytes | 16 count
+  canonical functions                    |   0x8f5281 -   0x8f5286 |         5 bytes | 1 count
+  component alias                        |   0x8f5288 -   0x8f5290 |         8 bytes | 1 count
+  core instances                         |   0x8f5293 -   0x8f56e9 |      1110 bytes | 1 count
+  component alias                        |   0x8f56eb -   0x8f5706 |        27 bytes | 1 count
+  canonical functions                    |   0x8f5708 -   0x8f570b |         3 bytes | 1 count
+  component alias                        |   0x8f570d -   0x8f5741 |        52 bytes | 2 count
+  canonical functions                    |   0x8f5743 -   0x8f5748 |         5 bytes | 1 count
+  component alias                        |   0x8f574a -   0x8f5752 |         8 bytes | 1 count
+  core instances                         |   0x8f5755 -   0x8f57f9 |       164 bytes | 1 count
+  component alias                        |   0x8f57fb -   0x8f5811 |        22 bytes | 3 count
+  core instances                         |   0x8f5813 -   0x8f5849 |        54 bytes | 1 count
+  component alias                        |   0x8f584b -   0x8f5854 |         9 bytes | 1 count
+  canonical functions                    |   0x8f5856 -   0x8f585b |         5 bytes | 1 count
+  core instances                         |   0x8f585d -   0x8f5868 |        11 bytes | 1 count
+  component alias                        |   0x8f586a -   0x8f5878 |        14 bytes | 1 count
+  canonical functions                    |   0x8f587a -   0x8f587f |         5 bytes | 1 count
+  core instances                         |   0x8f5881 -   0x8f5891 |        16 bytes | 1 count
+  component alias                        |   0x8f5893 -   0x8f58a2 |        15 bytes | 1 count
+  canonical functions                    |   0x8f58a4 -   0x8f58a9 |         5 bytes | 1 count
+  core instances                         |   0x8f58ab -   0x8f58bc |        17 bytes | 1 count
+  component alias                        |   0x8f58be -   0x8f58cd |        15 bytes | 1 count
+  canonical functions                    |   0x8f58cf -   0x8f58d4 |         5 bytes | 1 count
+  core instances                         |   0x8f58d6 -   0x8f58e7 |        17 bytes | 1 count
+  component alias                        |   0x8f58e9 -   0x8f58f1 |         8 bytes | 1 count
+  core instances                         |   0x8f58f3 -   0x8f590c |        25 bytes | 1 count
+  component alias                        |   0x8f590e -   0x8f5916 |         8 bytes | 1 count
+  core instances                         |   0x8f5918 -   0x8f5932 |        26 bytes | 1 count
+  component alias                        |   0x8f5934 -   0x8f593c |         8 bytes | 1 count
+  core instances                         |   0x8f593e -   0x8f5958 |        26 bytes | 1 count
+  component alias                        |   0x8f595a -   0x8f5962 |         8 bytes | 1 count
+  canonical functions                    |   0x8f5964 -   0x8f5969 |         5 bytes | 1 count
+  component alias                        |   0x8f596b -   0x8f597a |        15 bytes | 1 count
+  canonical functions                    |   0x8f597c -   0x8f5981 |         5 bytes | 1 count
+  component alias                        |   0x8f5983 -   0x8f5999 |        22 bytes | 1 count
+  canonical functions                    |   0x8f599b -   0x8f59a0 |         5 bytes | 1 count
+  component alias                        |   0x8f59a2 -   0x8f59b9 |        23 bytes | 1 count
+  canonical functions                    |   0x8f59bb -   0x8f59c0 |         5 bytes | 1 count
+  core instances                         |   0x8f59c2 -   0x8f5a05 |        67 bytes | 1 count
+  component alias                        |   0x8f5a07 -   0x8f5a16 |        15 bytes | 2 count
+  core instances                         |   0x8f5a18 -   0x8f5a30 |        24 bytes | 1 count
+  component alias                        |   0x8f5a32 -   0x8f5a3a |         8 bytes | 1 count
+  core instances                         |   0x8f5a3c -   0x8f5a52 |        22 bytes | 1 count
+  component alias                        |   0x8f5a54 -   0x8f5a69 |        21 bytes | 1 count
+  canonical functions                    |   0x8f5a6b -   0x8f5a70 |         5 bytes | 1 count
+  core instances                         |   0x8f5a72 -   0x8f5a89 |        23 bytes | 1 count
+  component alias                        |   0x8f5a8b -   0x8f5a93 |         8 bytes | 1 count
+  core instances                         |   0x8f5a95 -   0x8f5aad |        24 bytes | 1 count
+  component alias                        |   0x8f5aaf -   0x8f5ab7 |         8 bytes | 1 count
+  core instances                         |   0x8f5ab9 -   0x8f5ad1 |        24 bytes | 1 count
+  component alias                        |   0x8f5ad3 -   0x8f5aed |        26 bytes | 2 count
+  canonical functions                    |   0x8f5aef -   0x8f5af4 |         5 bytes | 1 count
+  core instances                         |   0x8f5af6 -   0x8f5b1f |        41 bytes | 1 count
+  component alias                        |   0x8f5b21 -   0x8f5b44 |        35 bytes | 2 count
+  canonical functions                    |   0x8f5b46 -   0x8f5b4b |         5 bytes | 1 count
+  core instances                         |   0x8f5b4d -   0x8f5b88 |        59 bytes | 1 count
+  component alias                        |   0x8f5b8a -   0x8f5b92 |         8 bytes | 1 count
+  core instances                         |   0x8f5b94 -   0x8f5ba8 |        20 bytes | 1 count
+  component alias                        |   0x8f5bab -   0x8f5d80 |       469 bytes | 20 count
+  core instances                         |   0x8f5d83 -   0x8f5ec6 |       323 bytes | 1 count
+  component alias                        |   0x8f5ec8 -   0x8f5f2a |        98 bytes | 3 count
+  core instances                         |   0x8f5f2d -   0x8f62b7 |       906 bytes | 2 count
+  component alias                        |   0x8f62ba -   0x8f68c2 |      1544 bytes | 63 count
+  core instances                         |   0x8f68c5 -   0x8f6ec8 |      1539 bytes | 1 count
+  component alias                        |   0x8f6eca -   0x8f6ed3 |         9 bytes | 1 count
+  canonical functions                    |   0x8f6ed5 -   0x8f6eda |         5 bytes | 1 count
+  component alias                        |   0x8f6edc -   0x8f6ee4 |         8 bytes | 1 count
+  core instances                         |   0x8f6ee6 -   0x8f6f1a |        52 bytes | 2 count
+  module                                 |   0x8f6f1e -   0x9047b6 |     55448 bytes | 1 count
+    ------ start module 6 -------------
+    types                                |   0x8f6f29 -   0x8f7047 |       286 bytes | 39 count
+    imports                              |   0x8f704b -   0x9040e3 |     53400 bytes | 802 count
+    functions                            |   0x9040e5 -   0x9040e7 |         2 bytes | 1 count
+    start                                |   0x9040e9 -   0x9040eb |         2 bytes | 1 count
+    elements                             |   0x9040ee -   0x9045ac |      1214 bytes | 3 count
+    code                                 |   0x9045af -   0x9047a3 |       500 bytes | 1 count
+    data                                 |   0x9047a5 -   0x9047b6 |        17 bytes | 1 count
+    ------ end module 6 -------------
+  component alias                        |   0x9047b8 -   0x9047ca |        18 bytes | 1 count
+  canonical functions                    |   0x9047cc -   0x9047d3 |         7 bytes | 1 count
+  component alias                        |   0x9047d5 -   0x904808 |        51 bytes | 2 count
+  canonical functions                    |   0x90480a -   0x904815 |        11 bytes | 1 count
+  component alias                        |   0x904817 -   0x904820 |         9 bytes | 1 count
+  canonical functions                    |   0x904822 -   0x90482c |        10 bytes | 1 count
+  component alias                        |   0x90482e -   0x90484c |        30 bytes | 1 count
+  canonical functions                    |   0x90484e -   0x904858 |        10 bytes | 1 count
+  component alias                        |   0x90485a -   0x904881 |        39 bytes | 1 count
+  canonical functions                    |   0x904883 -   0x90488d |        10 bytes | 1 count
+  component alias                        |   0x90488f -   0x9048ad |        30 bytes | 1 count
+  canonical functions                    |   0x9048af -   0x9048b6 |         7 bytes | 1 count
+  component alias                        |   0x9048b8 -   0x9048df |        39 bytes | 1 count
+  canonical functions                    |   0x9048e1 -   0x9048e8 |         7 bytes | 1 count
+  component alias                        |   0x9048ea -   0x904910 |        38 bytes | 1 count
+  canonical functions                    |   0x904912 -   0x904919 |         7 bytes | 1 count
+  component alias                        |   0x90491b -   0x90493b |        32 bytes | 1 count
+  canonical functions                    |   0x90493d -   0x904944 |         7 bytes | 1 count
+  component alias                        |   0x904946 -   0x904979 |        51 bytes | 1 count
+  canonical functions                    |   0x90497b -   0x904982 |         7 bytes | 1 count
+  component alias                        |   0x904984 -   0x9049a4 |        32 bytes | 1 count
+  canonical functions                    |   0x9049a6 -   0x9049ad |         7 bytes | 1 count
+  component alias                        |   0x9049af -   0x9049d8 |        41 bytes | 1 count
+  canonical functions                    |   0x9049da -   0x9049e1 |         7 bytes | 1 count
+  component alias                        |   0x9049e3 -   0x904a0a |        39 bytes | 1 count
+  canonical functions                    |   0x904a0c -   0x904a13 |         7 bytes | 1 count
+  component alias                        |   0x904a15 -   0x904a4f |        58 bytes | 1 count
+  canonical functions                    |   0x904a51 -   0x904a58 |         7 bytes | 1 count
+  component alias                        |   0x904a5a -   0x904a7b |        33 bytes | 1 count
+  canonical functions                    |   0x904a7d -   0x904a84 |         7 bytes | 1 count
+  component alias                        |   0x904a86 -   0x904ab0 |        42 bytes | 1 count
+  canonical functions                    |   0x904ab2 -   0x904ab9 |         7 bytes | 1 count
+  component alias                        |   0x904abb -   0x904ae2 |        39 bytes | 1 count
+  canonical functions                    |   0x904ae4 -   0x904aeb |         7 bytes | 1 count
+  component alias                        |   0x904aed -   0x904b15 |        40 bytes | 1 count
+  canonical functions                    |   0x904b17 -   0x904b1e |         7 bytes | 1 count
+  component alias                        |   0x904b20 -   0x904b49 |        41 bytes | 1 count
+  canonical functions                    |   0x904b4b -   0x904b52 |         7 bytes | 1 count
+  component alias                        |   0x904b54 -   0x904b72 |        30 bytes | 1 count
+  canonical functions                    |   0x904b74 -   0x904b7b |         7 bytes | 1 count
+  component alias                        |   0x904b7d -   0x904b9e |        33 bytes | 1 count
+  canonical functions                    |   0x904ba0 -   0x904ba7 |         7 bytes | 1 count
+  component alias                        |   0x904ba9 -   0x904bca |        33 bytes | 1 count
+  canonical functions                    |   0x904bcc -   0x904bd3 |         7 bytes | 1 count
+  component alias                        |   0x904bd5 -   0x904bf5 |        32 bytes | 1 count
+  canonical functions                    |   0x904bf7 -   0x904bfe |         7 bytes | 1 count
+  component alias                        |   0x904c00 -   0x904c20 |        32 bytes | 1 count
+  canonical functions                    |   0x904c22 -   0x904c29 |         7 bytes | 1 count
+  component alias                        |   0x904c2b -   0x904c4c |        33 bytes | 1 count
+  canonical functions                    |   0x904c4e -   0x904c55 |         7 bytes | 1 count
+  component alias                        |   0x904c57 -   0x904c73 |        28 bytes | 1 count
+  canonical functions                    |   0x904c75 -   0x904c7f |        10 bytes | 1 count
+  component alias                        |   0x904c81 -   0x904c9e |        29 bytes | 1 count
+  canonical functions                    |   0x904ca0 -   0x904ca7 |         7 bytes | 1 count
+  component alias                        |   0x904ca9 -   0x904ccf |        38 bytes | 1 count
+  canonical functions                    |   0x904cd1 -   0x904cd8 |         7 bytes | 1 count
+  component alias                        |   0x904cda -   0x904cf6 |        28 bytes | 1 count
+  canonical functions                    |   0x904cf8 -   0x904cff |         7 bytes | 1 count
+  component alias                        |   0x904d01 -   0x904d2c |        43 bytes | 1 count
+  canonical functions                    |   0x904d2e -   0x904d36 |         8 bytes | 1 count
+  component alias                        |   0x904d38 -   0x904d54 |        28 bytes | 1 count
+  canonical functions                    |   0x904d56 -   0x904d5d |         7 bytes | 1 count
+  component alias                        |   0x904d5f -   0x904d7e |        31 bytes | 1 count
+  canonical functions                    |   0x904d80 -   0x904d88 |         8 bytes | 1 count
+  component alias                        |   0x904d8a -   0x904dae |        36 bytes | 1 count
+  canonical functions                    |   0x904db0 -   0x904db8 |         8 bytes | 1 count
+  component alias                        |   0x904dba -   0x904dd9 |        31 bytes | 1 count
+  canonical functions                    |   0x904ddb -   0x904de3 |         8 bytes | 1 count
+  component alias                        |   0x904de5 -   0x904e04 |        31 bytes | 1 count
+  canonical functions                    |   0x904e06 -   0x904e0e |         8 bytes | 1 count
+  component alias                        |   0x904e10 -   0x904e33 |        35 bytes | 1 count
+  canonical functions                    |   0x904e35 -   0x904e40 |        11 bytes | 1 count
+  component alias                        |   0x904e42 -   0x904e6d |        43 bytes | 1 count
+  canonical functions                    |   0x904e6f -   0x904e77 |         8 bytes | 1 count
+  component alias                        |   0x904e79 -   0x904e9a |        33 bytes | 1 count
+  canonical functions                    |   0x904e9c -   0x904ea4 |         8 bytes | 1 count
+  component alias                        |   0x904ea6 -   0x904ec8 |        34 bytes | 1 count
+  canonical functions                    |   0x904eca -   0x904ed2 |         8 bytes | 1 count
+  component alias                        |   0x904ed4 -   0x904efa |        38 bytes | 1 count
+  canonical functions                    |   0x904efc -   0x904f04 |         8 bytes | 1 count
+  component alias                        |   0x904f06 -   0x904f2b |        37 bytes | 1 count
+  canonical functions                    |   0x904f2d -   0x904f34 |         7 bytes | 1 count
+  component alias                        |   0x904f36 -   0x904f5e |        40 bytes | 1 count
+  canonical functions                    |   0x904f60 -   0x904f68 |         8 bytes | 1 count
+  component alias                        |   0x904f6a -   0x904fa2 |        56 bytes | 1 count
+  canonical functions                    |   0x904fa4 -   0x904faf |        11 bytes | 1 count
+  component alias                        |   0x904fb1 -   0x904fcb |        26 bytes | 1 count
+  canonical functions                    |   0x904fcd -   0x904fd4 |         7 bytes | 1 count
+  component alias                        |   0x904fd6 -   0x904ff8 |        34 bytes | 1 count
+  canonical functions                    |   0x904ffa -   0x905001 |         7 bytes | 1 count
+  component alias                        |   0x905003 -   0x905026 |        35 bytes | 1 count
+  canonical functions                    |   0x905028 -   0x90502f |         7 bytes | 1 count
+  component alias                        |   0x905031 -   0x90504f |        30 bytes | 1 count
+  canonical functions                    |   0x905051 -   0x905058 |         7 bytes | 1 count
+  component alias                        |   0x90505a -   0x90507f |        37 bytes | 1 count
+  canonical functions                    |   0x905081 -   0x905088 |         7 bytes | 1 count
+  component alias                        |   0x90508a -   0x9050b0 |        38 bytes | 1 count
+  canonical functions                    |   0x9050b2 -   0x9050b9 |         7 bytes | 1 count
+  component alias                        |   0x9050bb -   0x9050e4 |        41 bytes | 1 count
+  canonical functions                    |   0x9050e6 -   0x9050ed |         7 bytes | 1 count
+  component alias                        |   0x9050ef -   0x90511c |        45 bytes | 1 count
+  canonical functions                    |   0x90511e -   0x905125 |         7 bytes | 1 count
+  component alias                        |   0x905127 -   0x905152 |        43 bytes | 1 count
+  canonical functions                    |   0x905154 -   0x90515b |         7 bytes | 1 count
+  component alias                        |   0x90515d -   0x90518c |        47 bytes | 1 count
+  canonical functions                    |   0x90518e -   0x905195 |         7 bytes | 1 count
+  component alias                        |   0x905197 -   0x9051bf |        40 bytes | 1 count
+  canonical functions                    |   0x9051c1 -   0x9051c8 |         7 bytes | 1 count
+  component alias                        |   0x9051ca -   0x9051f6 |        44 bytes | 1 count
+  canonical functions                    |   0x9051f8 -   0x9051ff |         7 bytes | 1 count
+  component alias                        |   0x905201 -   0x90522e |        45 bytes | 1 count
+  canonical functions                    |   0x905230 -   0x90523a |        10 bytes | 1 count
+  component alias                        |   0x90523c -   0x90526c |        48 bytes | 1 count
+  canonical functions                    |   0x90526e -   0x905275 |         7 bytes | 1 count
+  component alias                        |   0x905277 -   0x9052a1 |        42 bytes | 1 count
+  canonical functions                    |   0x9052a3 -   0x9052aa |         7 bytes | 1 count
+  component alias                        |   0x9052ac -   0x9052ce |        34 bytes | 1 count
+  canonical functions                    |   0x9052d0 -   0x9052d7 |         7 bytes | 1 count
+  component alias                        |   0x9052d9 -   0x9052fc |        35 bytes | 1 count
+  canonical functions                    |   0x9052fe -   0x905305 |         7 bytes | 1 count
+  component alias                        |   0x905307 -   0x90532c |        37 bytes | 1 count
+  canonical functions                    |   0x90532e -   0x905335 |         7 bytes | 1 count
+  component alias                        |   0x905337 -   0x90535d |        38 bytes | 1 count
+  canonical functions                    |   0x90535f -   0x905366 |         7 bytes | 1 count
+  component alias                        |   0x905368 -   0x90538c |        36 bytes | 1 count
+  canonical functions                    |   0x90538e -   0x905395 |         7 bytes | 1 count
+  component alias                        |   0x905397 -   0x9053bc |        37 bytes | 1 count
+  canonical functions                    |   0x9053be -   0x9053c5 |         7 bytes | 1 count
+  component alias                        |   0x9053c7 -   0x9053e5 |        30 bytes | 1 count
+  canonical functions                    |   0x9053e7 -   0x9053ee |         7 bytes | 1 count
+  component alias                        |   0x9053f0 -   0x905415 |        37 bytes | 1 count
+  canonical functions                    |   0x905417 -   0x90541e |         7 bytes | 1 count
+  component alias                        |   0x905420 -   0x905446 |        38 bytes | 1 count
+  canonical functions                    |   0x905448 -   0x90544f |         7 bytes | 1 count
+  component alias                        |   0x905451 -   0x905480 |        47 bytes | 1 count
+  canonical functions                    |   0x905482 -   0x905489 |         7 bytes | 1 count
+  component alias                        |   0x90548b -   0x9054b5 |        42 bytes | 1 count
+  canonical functions                    |   0x9054b7 -   0x9054be |         7 bytes | 1 count
+  component alias                        |   0x9054c0 -   0x9054ee |        46 bytes | 1 count
+  canonical functions                    |   0x9054f0 -   0x9054f7 |         7 bytes | 1 count
+  component alias                        |   0x9054f9 -   0x905525 |        44 bytes | 1 count
+  canonical functions                    |   0x905527 -   0x90552e |         7 bytes | 1 count
+  component alias                        |   0x905530 -   0x905560 |        48 bytes | 1 count
+  canonical functions                    |   0x905562 -   0x905569 |         7 bytes | 1 count
+  component alias                        |   0x90556b -   0x905596 |        43 bytes | 1 count
+  canonical functions                    |   0x905598 -   0x90559f |         7 bytes | 1 count
+  component alias                        |   0x9055a1 -   0x9055d0 |        47 bytes | 1 count
+  canonical functions                    |   0x9055d2 -   0x9055d9 |         7 bytes | 1 count
+  component alias                        |   0x9055db -   0x905603 |        40 bytes | 1 count
+  canonical functions                    |   0x905605 -   0x90560c |         7 bytes | 1 count
+  component alias                        |   0x90560e -   0x90563a |        44 bytes | 1 count
+  canonical functions                    |   0x90563c -   0x905643 |         7 bytes | 1 count
+  component alias                        |   0x905645 -   0x905666 |        33 bytes | 1 count
+  canonical functions                    |   0x905668 -   0x90566f |         7 bytes | 1 count
+  component alias                        |   0x905671 -   0x905696 |        37 bytes | 1 count
+  canonical functions                    |   0x905698 -   0x90569f |         7 bytes | 1 count
+  component alias                        |   0x9056a1 -   0x9056cc |        43 bytes | 1 count
+  canonical functions                    |   0x9056ce -   0x9056d5 |         7 bytes | 1 count
+  component alias                        |   0x9056d7 -   0x905706 |        47 bytes | 1 count
+  canonical functions                    |   0x905708 -   0x90570f |         7 bytes | 1 count
+  component alias                        |   0x905711 -   0x905739 |        40 bytes | 1 count
+  canonical functions                    |   0x90573b -   0x905742 |         7 bytes | 1 count
+  component alias                        |   0x905744 -   0x905770 |        44 bytes | 1 count
+  canonical functions                    |   0x905772 -   0x905779 |         7 bytes | 1 count
+  component alias                        |   0x90577b -   0x90579b |        32 bytes | 1 count
+  canonical functions                    |   0x90579d -   0x9057a4 |         7 bytes | 1 count
+  component alias                        |   0x9057a6 -   0x9057de |        56 bytes | 1 count
+  canonical functions                    |   0x9057e0 -   0x9057e7 |         7 bytes | 1 count
+  component alias                        |   0x9057e9 -   0x9057ff |        22 bytes | 1 count
+  canonical functions                    |   0x905801 -   0x905809 |         8 bytes | 1 count
+  component alias                        |   0x90580b -   0x90581f |        20 bytes | 1 count
+  canonical functions                    |   0x905821 -   0x90582c |        11 bytes | 1 count
+  component alias                        |   0x90582e -   0x905840 |        18 bytes | 1 count
+  canonical functions                    |   0x905842 -   0x90584d |        11 bytes | 1 count
+  component alias                        |   0x90584f -   0x90585f |        16 bytes | 1 count
+  canonical functions                    |   0x905861 -   0x90586c |        11 bytes | 1 count
+  component alias                        |   0x90586e -   0x905885 |        23 bytes | 1 count
+  canonical functions                    |   0x905887 -   0x90588e |         7 bytes | 1 count
+  component alias                        |   0x905890 -   0x9058a8 |        24 bytes | 1 count
+  canonical functions                    |   0x9058aa -   0x9058b1 |         7 bytes | 1 count
+  component alias                        |   0x9058b3 -   0x9058cb |        24 bytes | 1 count
+  canonical functions                    |   0x9058cd -   0x9058d4 |         7 bytes | 1 count
+  component alias                        |   0x9058d6 -   0x9058de |         8 bytes | 1 count
+  canonical functions                    |   0x9058e0 -   0x9058e7 |         7 bytes | 1 count
+  component alias                        |   0x9058e9 -   0x9058f8 |        15 bytes | 1 count
+  canonical functions                    |   0x9058fa -   0x905901 |         7 bytes | 1 count
+  component alias                        |   0x905903 -   0x905917 |        20 bytes | 1 count
+  canonical functions                    |   0x905919 -   0x905924 |        11 bytes | 1 count
+  component alias                        |   0x905926 -   0x90593c |        22 bytes | 1 count
+  canonical functions                    |   0x90593e -   0x905945 |         7 bytes | 1 count
+  component alias                        |   0x905947 -   0x90595d |        22 bytes | 1 count
+  canonical functions                    |   0x90595f -   0x905966 |         7 bytes | 1 count
+  component alias                        |   0x905968 -   0x90597d |        21 bytes | 1 count
+  canonical functions                    |   0x90597f -   0x905989 |        10 bytes | 1 count
+  component alias                        |   0x90598b -   0x9059a9 |        30 bytes | 1 count
+  canonical functions                    |   0x9059ab -   0x9059b5 |        10 bytes | 1 count
+  component alias                        |   0x9059b7 -   0x9059c9 |        18 bytes | 1 count
+  canonical functions                    |   0x9059cb -   0x9059d2 |         7 bytes | 1 count
+  component alias                        |   0x9059d4 -   0x9059ee |        26 bytes | 2 count
+  canonical functions                    |   0x9059f0 -   0x9059fb |        11 bytes | 1 count
+  core instances                         |   0x9059fe -   0x905c8d |       655 bytes | 2 count
+  component types                        |   0x905c8f -   0x905c9b |        12 bytes | 1 count
+  component alias                        |   0x905c9d -   0x905cbe |        33 bytes | 2 count
+  canonical functions                    |   0x905cc0 -   0x905cca |        10 bytes | 1 count
+  component exports                      |   0x905ccc -   0x905cd8 |        12 bytes | 1 count
+  component types                        |   0x905cda -   0x905ce6 |        12 bytes | 1 count
+  component alias                        |   0x905ce8 -   0x905d0d |        37 bytes | 2 count
+  canonical functions                    |   0x905d0f -   0x905d19 |        10 bytes | 1 count
+  component exports                      |   0x905d1b -   0x905d2a |        15 bytes | 1 count
+  component types                        |   0x905d2c -   0x905d38 |        12 bytes | 1 count
+  component alias                        |   0x905d3a -   0x905d57 |        29 bytes | 2 count
+  canonical functions                    |   0x905d59 -   0x905d69 |        16 bytes | 1 count
+  component exports                      |   0x905d6b -   0x905d76 |        11 bytes | 1 count
+  component types                        |   0x905d78 -   0x905d88 |        16 bytes | 2 count
+  component alias                        |   0x905d8a -   0x905da9 |        31 bytes | 2 count
+  canonical functions                    |   0x905dab -   0x905dba |        15 bytes | 1 count
+  component exports                      |   0x905dbc -   0x905dc8 |        12 bytes | 1 count
+  component types                        |   0x905dca -   0x905dd8 |        14 bytes | 1 count
+  component alias                        |   0x905dda -   0x905e03 |        41 bytes | 2 count
+  canonical functions                    |   0x905e05 -   0x905e15 |        16 bytes | 1 count
+  component exports                      |   0x905e17 -   0x905e28 |        17 bytes | 1 count
+  component types                        |   0x905e2a -   0x905e36 |        12 bytes | 1 count
+  component alias                        |   0x905e38 -   0x905e5b |        35 bytes | 2 count
+  canonical functions                    |   0x905e5d -   0x905e67 |        10 bytes | 1 count
+  component exports                      |   0x905e69 -   0x905e77 |        14 bytes | 1 count
+  component alias                        |   0x905e79 -   0x905ea4 |        43 bytes | 2 count
+  canonical functions                    |   0x905ea6 -   0x905eb6 |        16 bytes | 1 count
+  component exports                      |   0x905eb8 -   0x905eca |        18 bytes | 1 count
