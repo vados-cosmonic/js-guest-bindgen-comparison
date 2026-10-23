@@ -1,48 +1,90 @@
 <?xml version='1.0' encoding='utf-8'?>
 <mxfile host="app.diagrams.net">
   <diagram name="A · js-guest-bindgen" id="a">
-    <mxGraphModel dx="1200" dy="1000" grid="1" page="1" pageWidth="1100" pageHeight="1050">
+    <mxGraphModel grid="1" page="1" pageWidth="1100" pageHeight="1425">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="1. Host calls a component export&lt;br&gt;Wasmtime lowers host values to the guest Canonical ABI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="75" y="80" width="950" height="82" />
+        <mxCell id="title" value="A · js-guest-bindgen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef1f5;strokeColor=#7b8797;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="12" width="1010" height="55" />
         </mxCell>
-        <mxCell id="3" value="2. Generated native core export&lt;br&gt;Rust (Boa) or C (Porffor) boxes raw scalar / pointer arguments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="75" y="193" width="950" height="82" />
+        <mxCell id="step0" value="1. Host calls a component export&lt;br&gt;Wasmtime lowers host values to the guest Canonical ABI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dceafb;strokeColor=#4776aa;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65" y="90" width="970" height="79" />
         </mxCell>
-        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="step1" value="2. Generated native core wrapper receives the call&lt;br&gt;wit_export_i · Rust on Boa / C on Porffor · boxes raw core arguments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d7efdf;strokeColor=#387b53;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65" y="199" width="970" height="79" />
+        </mxCell>
+        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="step0" target="step1">
           <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="4" value="3. Generated JS bindings lift arguments&lt;br&gt;Read canonical memory; native memory / UTF-8 helpers copy buffers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="75" y="306" width="950" height="82" />
+        <mxCell id="step2" value="3. Generated JS bindings lift arguments&lt;br&gt;js-guest-bindgen · reads canonical memory using native memory / UTF-8 helpers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff0c2;strokeColor=#96700c;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65" y="308" width="970" height="79" />
         </mxCell>
-        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="step1" target="step2">
           <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="5" value="4. Application JavaScript runs&lt;br&gt;Boa interprets JS bytecode · Porffor executes AOT-compiled Wasm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="75" y="419" width="950" height="82" />
+        <mxCell id="step3" value="4. Application JavaScript runs&lt;br&gt;Boa interprets JS bytecode · Porffor executes AOT-compiled Wasm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fde1d7;strokeColor=#aa6243;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65" y="417" width="970" height="79" />
         </mxCell>
-        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="step2" target="step3">
           <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="6" value="5. Generated JS bindings lower the result&lt;br&gt;Allocate / write canonical result data through memory helpers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="75" y="532" width="950" height="82" />
+        <mxCell id="step4" value="5. Generated JS bindings lower the result&lt;br&gt;js-guest-bindgen · allocates and writes canonical result data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff0c2;strokeColor=#96700c;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65" y="526" width="970" height="79" />
         </mxCell>
-        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="5" target="6">
+        <mxCell id="edge4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="step3" target="step4">
           <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="7" value="6. Native wrapper returns → host lifts the result&lt;br&gt;Wasmtime invokes canonical post-return; tracked allocations are freed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="75" y="645" width="950" height="82" />
+        <mxCell id="step5" value="6. Native core wrapper returns&lt;br&gt;Unboxes the raw core result · keeps returned allocations alive until post-return" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d7efdf;strokeColor=#387b53;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65" y="635" width="970" height="79" />
         </mxCell>
-        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="6" target="7">
+        <mxCell id="edge5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="step4" target="step5">
           <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="imports" value="Nested host import (inside step 4)&lt;br&gt;JS import wrapper lowers args → native core import → host implementation&lt;br&gt;Host result → JS binding lifts it → application continues" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="75" y="779" width="950" height="110" />
+        <mxCell id="step6" value="7. Host lifts the result and invokes canonical post-return&lt;br&gt;Wasmtime owns this phase; the native A wrapper frees its tracked result allocations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dceafb;strokeColor=#4776aa;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65" y="744" width="970" height="79" />
         </mxCell>
-        <mxCell id="jobs" value="Jobs and asynchronous execution&lt;br&gt;Boa drains module jobs at initialization. Sync export wrappers do not pump an I/O loop." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="75" y="916" width="950" height="90" />
+        <mxCell id="edge6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="step5" target="step6">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="import-title" value="Nested host import · called from the application in step 4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef1f5;strokeColor=#7b8797;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65" y="870" width="970" height="54" />
+        </mxCell>
+        <mxCell id="import0" value="JS binding&lt;br&gt;Lowers arguments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff0c2;strokeColor=#96700c;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65.0" y="940" width="303.3333333333333" height="78" />
+        </mxCell>
+        <mxCell id="import1" value="Native wrapper&lt;br&gt;Calls the core import" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d7efdf;strokeColor=#387b53;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="398.3333333333333" y="940" width="303.3333333333333" height="78" />
+        </mxCell>
+        <mxCell id="import-edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="import0" target="import1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="import2" value="Host function&lt;br&gt;Produces the result" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dceafb;strokeColor=#4776aa;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="731.6666666666666" y="940" width="303.3333333333333" height="78" />
+        </mxCell>
+        <mxCell id="import-edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="import1" target="import2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="return-note" value="The host result returns to the active application call&lt;br&gt;Result returns through the native wrapper; generated JS bindings lift it for the application." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef1f5;strokeColor=#7b8797;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65" y="1034" width="970" height="79" />
+        </mxCell>
+        <mxCell id="jobs" value="Jobs and asynchronous execution&lt;br&gt;Boa drains module jobs at initialization. Synchronous exports do not pump an I/O loop." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef1f5;strokeColor=#7b8797;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65" y="1134" width="970" height="79" />
+        </mxCell>
+        <mxCell id="legend0" value="Wasmtime / host boundary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dceafb;strokeColor=#4776aa;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65" y="1270" width="470" height="35" />
+        </mxCell>
+        <mxCell id="legend1" value="js-guest-bindgen generated JS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff0c2;strokeColor=#96700c;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="565" y="1270" width="470" height="35" />
+        </mxCell>
+        <mxCell id="legend2" value="Native engine wrappers · this repo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d7efdf;strokeColor=#387b53;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65" y="1313" width="470" height="35" />
+        </mxCell>
+        <mxCell id="legend3" value="Application running in Boa / Porffor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fde1d7;strokeColor=#aa6243;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="565" y="1313" width="470" height="35" />
+        </mxCell>
+        <mxCell id="legend4" value="Execution notes / cross-layer explanation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef1f5;strokeColor=#7b8797;fontColor=#243746;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65" y="1356" width="470" height="35" />
         </mxCell>
       </root>
     </mxGraphModel>

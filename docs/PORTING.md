@@ -1,5 +1,7 @@
 # Porting choices and audit trail
 
+Throughout this repo, **B is the new componentize-js machinery plus native, interface-specific engine shims**, and **C is the new componentize-js machinery targeting wit-dylib**. “New” identifies the reboot in the pinned dicej/componentize-js revision. B's specialization backend is added by this experiment; it is not an existing upstream target.
+
 The vendored componentize-js generator is an unmodified copy of upstream `src/codegen.rs` and `src/globals.js`, at the revision in `upstream.lock.json`. It runs without compiling the upstream mozjs runtime. Its generated imported-interface modules and globals are used by both native backends. Its generated async export wrappers are retained by the Boa module loader but never selected for synchronous P2 exports; Porffor's build only needs the synchronous exports.
 
 The P2 `Interpreter` / `Call` contract is ported to `native/common/runtime_c.c`. This is a port for the comparison WIT world, not a claim to port componentize-js's entire engine-specific runtime. The actual Canonical ABI code in C is the output of wit-dylib 0.254.0, the version selected by componentize-js's manifest. The separate wasm-tools main checkout records what was inspected; it is not silently substituted for that dependency. `native/common/wit_dylib.h` matches 0.254.0.

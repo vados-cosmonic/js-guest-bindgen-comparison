@@ -3,8 +3,8 @@
 - [x] Inspect upstream designs and pin source revisions.
 - [x] Create common P2 workloads and correctness oracle (scalars, strings, lists, records, host imports).
 - [x] A: adapt the actual js-guest-bindgen Boa and Porffor embeddings to the common world.
-- [x] B: reuse componentize-js metadata/JS generation; generate a native Canonical ABI runtime and interface-specific engine shims, with no Canonical ABI work in those shims.
-- [x] C: reuse the same componentize-js generation and link real wit-dylib against native engine adapters.
+- [x] B: reuse the new componentize-js metadata/JS generation; generate a native Canonical ABI runtime and interface-specific engine shims, with no Canonical ABI work in those shims.
+- [x] C: target wit-dylib with the new componentize-js machinery and link native engine adapters.
 - [x] Build and validate all six P2 components; exercise correctness and ownership/post-return.
 - [x] Measure stripped and compressed component sizes, cold initialization, steady-state calls, and import round trips with repeated samples.
 - [x] Explain measured results and limitations in README.md and SUMMARY.md, with editable draw.io diagrams and SVGs.
@@ -28,5 +28,7 @@ All three diagnostic A variants pass the same correctness suite. Final builds us
 ## Completed experiment
 
 The final dataset contains 27 successful process runs: six primary builds and three controls, each repeated three times. Each process measures 16 warm cases in 15 batches and nine fresh instances for cold behavior. Raw samples, deployment hashes, section sizes, tool versions, and source hashes are retained under `results/`. `SUMMARY.md` records the findings, controls, and limits; the three call-path diagrams include both SVG and editable draw.io files.
+
+Documentation now includes separate per-engine results tables and SVG size/latency charts ahead of the README call paths. All seven SVGs have legends and embedded light/dark palettes. `scripts/figures.py` regenerates charts and the README results block from the recorded data; `scripts/diagrams.py` regenerates call paths and editable draw.io files.
 
 Remaining production work is outside this measured comparison: arbitrary-WIT generation of B's typed shims, additional WIT types in C's engine adapter, consistent invalid-JS validation, and a P2 Promise/I/O scheduler. The current results do not establish performance for those paths or for shared prebuilt engine deployment.

@@ -2,12 +2,21 @@
 
 The measured WIT functions are synchronous. Every export returns a plain JS value, every host import returns synchronously, and there are no timers or I/O operations. Thus there is **no async loop pumping during a timed call**. Reporting such a loop as part of any of these call paths would be misleading.
 
-| Engine / path | Initialization | Timed export | Return and cleanup |
+## Boa
+
+| Approach | Initialization | Timed export | Return and cleanup |
 |---|---|---|---|
-| Boa A | Parse modules, load/link/evaluate, `Context::run_jobs`, bind generated JS callbacks | Native core wrapper calls generated binding, which calls the app | JS binding writes result; native wrapper returns; Wasmtime runs post-return |
-| Boa B/C | Parse the componentize-generated modules and app, load/link/evaluate, `Context::run_jobs`, cache exported functions | Typed native B shim or C's generic `export_call` calls the app | B native ABI runtime or C world.so lowers result; Wasmtime runs post-return |
-| Porffor A | Lazily call the compiled program's main to register generated binding callbacks | Compiled binding and app execute as Wasm | Compiled binding writes result; native wrapper returns; post-return frees allocations |
-| Porffor B/C | Lazily run compiled main and root native callback values | Native B shim or C's `export_call` invokes the compiled app | Native B runtime or C world.so returns canonical values; post-return cleans up |
+| A | Parse modules, load/link/evaluate, `Context::run_jobs`, bind generated JS callbacks | Native core wrapper calls generated binding, which calls the app | JS binding writes result; native wrapper returns; Wasmtime runs post-return |
+| B/C | Parse the new componentize-js generated modules and app, load/link/evaluate, `Context::run_jobs`, cache exported functions | Typed native B shim or C's generic `export_call` calls the app | B native ABI runtime or C world.so lowers result; Wasmtime runs post-return |
+
+## Porffor
+
+| Approach | Initialization | Timed export | Return and cleanup |
+|---|---|---|---|
+| A | Lazily call the compiled program's main to register generated binding callbacks | Compiled binding and app execute as Wasm | Compiled binding writes result; native wrapper returns; post-return frees allocations |
+| B/C | Lazily run compiled main and root native callback values | Native B shim or C's `export_call` invokes the compiled app | Native B runtime or C world.so returns canonical values; post-return cleans up |
+
+## A future Promise/I/O scheduler
 
 For an application that returns a Promise through a synchronous P2 export, all three architectures would need an additional *runtime-owned* scheduler. The architectural placement is the same: after the engine call and before lowering the final export result. It must retain argument/result roots, drain microtasks, wait on registered P2 WASI pollables when necessary, resolve I/O promises, drain again, and only return once the outer promise settles. A rejected promise must become a defined failure/trap, and a pending promise with no possible progress must not become a busy loop. Cleanup must still occur exactly once.
 
